@@ -103,6 +103,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "FormOrderDetails";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "FormOrderDetails";
             ((System.ComponentModel.ISupportInitialize)dataGridViewItems).EndInit();
             ResumeLayout(false);

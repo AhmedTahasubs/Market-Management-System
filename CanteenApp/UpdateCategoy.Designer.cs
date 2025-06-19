@@ -73,6 +73,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "UpdateCategoy";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "UpdateCategoy";
             ResumeLayout(false);
             PerformLayout();

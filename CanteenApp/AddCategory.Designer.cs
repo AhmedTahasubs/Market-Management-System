@@ -73,6 +73,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "AddCategory";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "AddCategory";
             ResumeLayout(false);
             PerformLayout();

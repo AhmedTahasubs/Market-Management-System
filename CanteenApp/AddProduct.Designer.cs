@@ -132,6 +132,7 @@
             Controls.Add(label2);
             Controls.Add(NameTxt);
             Controls.Add(UpdateBtn);
+            StartPosition = FormStartPosition.CenterParent;
             Text = "AddProduct";
             Load += AddProduct_Load;
             ResumeLayout(false);

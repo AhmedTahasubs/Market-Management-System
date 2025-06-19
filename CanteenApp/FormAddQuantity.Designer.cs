@@ -103,6 +103,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "FormAddQuantity";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "FormAddQuantity";
             ((System.ComponentModel.ISupportInitialize)nudQuantity).EndInit();
             ResumeLayout(false);

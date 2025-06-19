@@ -235,3 +235,4 @@ H:\Subs\1-Work\ITI Projects\ADO\Canteen\CanteenApp\obj\Debug\net8.0-windows\refi
 H:\Subs\1-Work\ITI Projects\ADO\Canteen\CanteenApp\obj\Debug\net8.0-windows\CanteenApp.pdb
 H:\Subs\1-Work\ITI Projects\ADO\Canteen\CanteenApp\obj\Debug\net8.0-windows\CanteenApp.genruntimeconfig.cache
 H:\Subs\1-Work\ITI Projects\ADO\Canteen\CanteenApp\obj\Debug\net8.0-windows\ref\CanteenApp.dll
+H:\Subs\1-Work\ITI Projects\ADO\Canteen\CanteenApp\obj\Debug\net8.0-windows\CanteenApp.sourcelink.json

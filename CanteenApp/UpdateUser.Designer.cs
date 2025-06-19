@@ -133,6 +133,7 @@
             Controls.Add(label2);
             Controls.Add(NameTxt);
             Controls.Add(UpdateBtn);
+            StartPosition = FormStartPosition.CenterParent;
             Text = "UpdateUser";
             Load += UpdateUser_Load;
             ResumeLayout(false);

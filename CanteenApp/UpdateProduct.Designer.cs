@@ -114,6 +114,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "UpdateProduct";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "UpdateProduct";
             Load += UpdateProduct_Load;
             ResumeLayout(false);

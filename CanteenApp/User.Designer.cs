@@ -45,29 +45,27 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(146, 4);
+            label1.Location = new Point(128, 3);
             label1.Name = "label1";
-            label1.Size = new Size(117, 20);
+            label1.Size = new Size(93, 15);
             label1.TabIndex = 11;
             label1.Text = "Search By Name";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(101, 28);
-            textBox1.Margin = new Padding(3, 4, 3, 4);
+            textBox1.Location = new Point(88, 21);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(197, 27);
+            textBox1.Size = new Size(173, 23);
             textBox1.TabIndex = 10;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(-1, 67);
-            dataGridView1.Margin = new Padding(3, 4, 3, 4);
+            dataGridView1.Location = new Point(-1, 50);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(413, 220);
+            dataGridView1.Size = new Size(361, 165);
             dataGridView1.TabIndex = 8;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             dataGridView1.CellContentDoubleClick += dataGridView1_CellContentDoubleClick;
@@ -76,20 +74,19 @@
             // dataGridView2
             // 
             dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView2.Location = new Point(418, 67);
-            dataGridView2.Margin = new Padding(3, 4, 3, 4);
+            dataGridView2.Location = new Point(366, 50);
             dataGridView2.Name = "dataGridView2";
             dataGridView2.RowHeadersWidth = 51;
-            dataGridView2.Size = new Size(473, 220);
+            dataGridView2.Size = new Size(414, 165);
             dataGridView2.TabIndex = 12;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(589, 16);
+            label2.Location = new Point(515, 12);
             label2.Name = "label2";
-            label2.Size = new Size(153, 41);
+            label2.Size = new Size(122, 32);
             label2.TabIndex = 13;
             label2.Text = "Cart Items";
             // 
@@ -97,9 +94,9 @@
             // 
             lblTotal.AutoSize = true;
             lblTotal.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblTotal.Location = new Point(418, 352);
+            lblTotal.Location = new Point(366, 264);
             lblTotal.Name = "lblTotal";
-            lblTotal.Size = new Size(65, 32);
+            lblTotal.Size = new Size(52, 25);
             lblTotal.TabIndex = 14;
             lblTotal.Text = "Total";
             // 
@@ -108,10 +105,9 @@
             btnPlaceOrder.BackColor = Color.Green;
             btnPlaceOrder.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             btnPlaceOrder.ForeColor = Color.White;
-            btnPlaceOrder.Location = new Point(418, 390);
-            btnPlaceOrder.Margin = new Padding(3, 4, 3, 4);
+            btnPlaceOrder.Location = new Point(366, 292);
             btnPlaceOrder.Name = "btnPlaceOrder";
-            btnPlaceOrder.Size = new Size(197, 53);
+            btnPlaceOrder.Size = new Size(172, 40);
             btnPlaceOrder.TabIndex = 15;
             btnPlaceOrder.Text = "Order";
             btnPlaceOrder.UseVisualStyleBackColor = false;
@@ -119,18 +115,17 @@
             // 
             // txtCustomerName
             // 
-            txtCustomerName.Location = new Point(418, 315);
-            txtCustomerName.Margin = new Padding(3, 4, 3, 4);
+            txtCustomerName.Location = new Point(366, 236);
             txtCustomerName.Name = "txtCustomerName";
-            txtCustomerName.Size = new Size(197, 27);
+            txtCustomerName.Size = new Size(173, 23);
             txtCustomerName.TabIndex = 16;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(418, 291);
+            label3.Location = new Point(366, 218);
             label3.Name = "label3";
-            label3.Size = new Size(116, 20);
+            label3.Size = new Size(94, 15);
             label3.TabIndex = 17;
             label3.Text = "Customer Name";
             // 
@@ -139,10 +134,9 @@
             Logoutbtn.BackColor = Color.Red;
             Logoutbtn.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Logoutbtn.ForeColor = Color.White;
-            Logoutbtn.Location = new Point(737, 432);
-            Logoutbtn.Margin = new Padding(3, 4, 3, 4);
+            Logoutbtn.Location = new Point(645, 324);
             Logoutbtn.Name = "Logoutbtn";
-            Logoutbtn.Size = new Size(132, 39);
+            Logoutbtn.Size = new Size(116, 29);
             Logoutbtn.TabIndex = 41;
             Logoutbtn.Text = "Logout";
             Logoutbtn.UseVisualStyleBackColor = false;
@@ -150,9 +144,9 @@
             // 
             // User
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(893, 484);
+            ClientSize = new Size(781, 363);
             Controls.Add(Logoutbtn);
             Controls.Add(label3);
             Controls.Add(txtCustomerName);
@@ -164,8 +158,8 @@
             Controls.Add(textBox1);
             Controls.Add(dataGridView1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            Margin = new Padding(3, 4, 3, 4);
             Name = "User";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "User";
             Load += User_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
