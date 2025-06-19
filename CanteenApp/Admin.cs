@@ -587,33 +587,47 @@ namespace CanteenApp
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
             string searchText = textBox4.Text.Trim();
+
             if (string.IsNullOrEmpty(searchText))
             {
                 LoadOrdersGrid();
+                return;
+            }
+
+            List<Order> orders;
+
+            // Try to parse month number (1–12)
+            bool isMonthNumber = int.TryParse(searchText, out int month) && month >= 1 && month <= 12;
+
+            if (isMonthNumber)
+            {
+                orders = OrdersManager.SearchOrdersByMonth(month);
             }
             else
             {
-                var orders = OrdersManager.SearchOrdersByCustomerName(searchText);
-                if (orders != null && orders.Count > 0)
+                orders = OrdersManager.SearchOrdersByCustomerName(searchText);
+            }
+
+            if (orders != null && orders.Count > 0)
+            {
+                dataGridViewOrders.DataSource = null;
+                dataGridViewOrders.DataSource = orders.Select(o => new
                 {
-                    dataGridViewOrders.DataSource = null; // Clear previous data source
-                    dataGridViewOrders.DataSource = orders.Select(o => new
-                    {
-                        o.Id,
-                        o.CustomerName,
-                        o.OrderDate,
-                        TotalAmount = o.TotalAmount
-                    }).ToList();
-                    dataGridViewOrders.Columns["Id"].HeaderText = "Order ID";
-                    dataGridViewOrders.Columns["CustomerName"].HeaderText = "Customer";
-                    dataGridViewOrders.Columns["OrderDate"].HeaderText = "Date";
-                    dataGridViewOrders.Columns["TotalAmount"].HeaderText = "Total (EGP)";
-                }
-                else
-                {
-                    dataGridViewOrders.DataSource = null;
-                    MessageBox.Show("No orders found matching the search criteria.", "Search Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
+                    o.Id,
+                    o.CustomerName,
+                    o.OrderDate,
+                    TotalAmount = o.TotalAmount
+                }).ToList();
+
+                dataGridViewOrders.Columns["Id"].HeaderText = "Order ID";
+                dataGridViewOrders.Columns["CustomerName"].HeaderText = "Customer";
+                dataGridViewOrders.Columns["OrderDate"].HeaderText = "Date";
+                dataGridViewOrders.Columns["TotalAmount"].HeaderText = "Total (EGP)";
+            }
+            else
+            {
+                dataGridViewOrders.DataSource = null;
+                MessageBox.Show("No orders found matching the search criteria.", "Search Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -650,10 +664,18 @@ namespace CanteenApp
             User user = new User();
             user.SelectedButton.Hide();
             user.ShowDialog();
-            if (user.DialogResult == DialogResult.OK )           
-                LoadOrdersGrid();       
+            if (user.DialogResult == DialogResult.OK )
+            {
+                LoadOrdersGrid();  
+                LoadProductsInComboBox();
+                LoadProductsInDataGrid();
+            }
             else
+            {
                 LoadOrdersGrid();
+                LoadProductsInComboBox();
+                LoadProductsInDataGrid();
+            }
         }
     }
 }

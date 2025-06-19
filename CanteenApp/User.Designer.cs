@@ -119,6 +119,7 @@
             txtCustomerName.Name = "txtCustomerName";
             txtCustomerName.Size = new Size(173, 23);
             txtCustomerName.TabIndex = 16;
+            txtCustomerName.TextChanged += txtCustomerName_TextChanged;
             // 
             // label3
             // 

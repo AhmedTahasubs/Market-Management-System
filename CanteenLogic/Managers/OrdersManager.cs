@@ -146,5 +146,36 @@ namespace CanteenLogic
 
             return orders;
         }
+        public static List<Order> SearchOrdersByMonth(int month)
+        {
+            string sql = "SELECT * FROM Orders WHERE MONTH(OrderDate) = @Month";
+            var parameters = new Dictionary<string, object>
+            {
+                { "@Month", month }
+            };
+
+            var dt = dbManager.GetDataTable(sql, parameters);
+            List<Order> orders = new();
+
+            foreach (DataRow row in dt.Rows)
+            {
+                var order = new Order
+                {
+                    Id = Convert.ToInt32(row["Id"]),
+                    CustomerName = row["CustomerName"].ToString(),
+                    OrderDate = Convert.ToDateTime(row["OrderDate"]),
+                };
+
+                order.Items = OrderItemsManager.GetOrderItems(order.Id);
+                foreach (var item in order.Items)
+                {
+                    item.Product = ProductsManager.GetProductById(item.ProductId);
+                }
+
+                orders.Add(order);
+            }
+
+            return orders;
+        }
     }
 }

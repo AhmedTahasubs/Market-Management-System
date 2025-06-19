@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CanteenLogic;
@@ -169,14 +170,18 @@ namespace CanteenApp
                 MessageBox.Show("Cart is empty.");
                 return;
             }
-
             string customerName = txtCustomerName.Text.Trim();
+            if (!Regex.IsMatch(customerName, @"^[a-zA-Z\s]+$"))
+            {
+                // Invalid: contains characters other than letters or space
+                MessageBox.Show("Customer name must contain only letters.");
+                return;
+            }
             if (string.IsNullOrEmpty(customerName))
             {
                 MessageBox.Show("Please enter customer name.");
                 return;
             }
-
             var order = new Order
             {
                 CustomerName = customerName,
@@ -205,6 +210,11 @@ namespace CanteenApp
             Hide();
             Login login = new Login();
             login.Show();
+        }
+
+        private void txtCustomerName_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

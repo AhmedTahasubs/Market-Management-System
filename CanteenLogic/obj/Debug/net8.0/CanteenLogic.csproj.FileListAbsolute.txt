@@ -43,3 +43,4 @@ H:\Subs\1-Work\ITI Projects\ADO\Canteen\CanteenLogic\obj\Debug\net8.0\CanteenLog
 H:\Subs\1-Work\ITI Projects\ADO\Canteen\CanteenLogic\obj\Debug\net8.0\refint\CanteenLogic.dll
 H:\Subs\1-Work\ITI Projects\ADO\Canteen\CanteenLogic\obj\Debug\net8.0\CanteenLogic.pdb
 H:\Subs\1-Work\ITI Projects\ADO\Canteen\CanteenLogic\obj\Debug\net8.0\ref\CanteenLogic.dll
+H:\Subs\1-Work\ITI Projects\ADO\Canteen\CanteenLogic\obj\Debug\net8.0\CanteenLogic.sourcelink.json
