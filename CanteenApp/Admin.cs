@@ -212,6 +212,7 @@ namespace CanteenApp
             MessageBox.Show("Product deleted successfully!");
             LoadProductsInComboBox();
             LoadProductsInDataGrid();
+            LoadOrdersGrid();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -222,6 +223,7 @@ namespace CanteenApp
             {
                 LoadProductsInComboBox();
                 LoadProductsInDataGrid();
+                LoadOrdersGrid();
             }
         }
 
@@ -237,6 +239,7 @@ namespace CanteenApp
             if (string.IsNullOrEmpty(searchText))
             {
                 LoadProductsInDataGrid();
+
             }
             else
             {
@@ -278,6 +281,7 @@ namespace CanteenApp
                 {
                     LoadProductsInComboBox();
                     LoadProductsInDataGrid();
+                    LoadOrdersGrid();
                 }
             }
             else
@@ -350,6 +354,7 @@ namespace CanteenApp
             MessageBox.Show("Category deleted successfully!");
             LoadProductsInComboBox();
             LoadProductsInDataGrid();
+            LoadOrdersGrid();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -360,6 +365,7 @@ namespace CanteenApp
             {
                 LoadProductsInComboBox();
                 LoadProductsInDataGrid();
+                LoadOrdersGrid();
             }
         }
 
@@ -374,6 +380,7 @@ namespace CanteenApp
                 {
                     LoadProductsInComboBox();
                     LoadProductsInDataGrid();
+                    LoadOrdersGrid();
                 }
             }
             else
@@ -516,6 +523,7 @@ namespace CanteenApp
             MessageBox.Show("User deleted successfully!");
             LoadProductsInComboBox();
             LoadProductsInDataGrid();
+            LoadOrdersGrid();
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -526,6 +534,7 @@ namespace CanteenApp
             {
                 LoadProductsInComboBox();
                 LoadProductsInDataGrid();
+                LoadOrdersGrid();
             }
         }
 
@@ -540,6 +549,7 @@ namespace CanteenApp
                 {
                     LoadProductsInComboBox();
                     LoadProductsInDataGrid();
+                    LoadOrdersGrid();
                 }
             }
             else
@@ -669,6 +679,7 @@ namespace CanteenApp
                 LoadOrdersGrid();  
                 LoadProductsInComboBox();
                 LoadProductsInDataGrid();
+
             }
             else
             {

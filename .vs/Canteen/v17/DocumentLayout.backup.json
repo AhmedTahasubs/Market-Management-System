@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|h:\\subs\\1-work\\iti projects\\ado\\canteen\\canteenapp\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEFE7F24-6080-4E91-8E74-DB1FB714CCE0}|CanteenLogic\\CanteenLogic.csproj|h:\\subs\\1-work\\iti projects\\ado\\canteen\\canteenlogic\\managers\\ordersmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEFE7F24-6080-4E91-8E74-DB1FB714CCE0}|CanteenLogic\\CanteenLogic.csproj|solutionrelative:canteenlogic\\managers\\ordersmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|h:\\subs\\1-work\\iti projects\\ado\\canteen\\canteenapp\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,21 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrdersManager.cs",
-              "DocumentMoniker": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenLogic\\Managers\\OrdersManager.cs",
-              "RelativeDocumentMoniker": "CanteenLogic\\Managers\\OrdersManager.cs",
-              "ToolTip": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenLogic\\Managers\\OrdersManager.cs",
-              "RelativeToolTip": "CanteenLogic\\Managers\\OrdersManager.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAAwJQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T10:04:22.674Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -59,32 +33,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenApp\\Admin.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\Admin.cs",
-              "ToolTip": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenApp\\Admin.cs",
-              "RelativeToolTip": "CanteenApp\\Admin.cs",
-              "ViewState": "AgIAAG8CAAAAAAAAAAAkwJMCAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T10:02:01.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Admin.cs [Design]",
-              "DocumentMoniker": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenApp\\Admin.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\Admin.cs",
-              "ToolTip": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenApp\\Admin.cs [Design]",
-              "RelativeToolTip": "CanteenApp\\Admin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T10:01:59.541Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }
