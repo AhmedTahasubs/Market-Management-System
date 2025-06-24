@@ -196,6 +196,37 @@ namespace CanteenApp
                 OrderItemsManager.AddOrderItem(item);
                 ProductsManager.DecreaseStock(item.ProductId, item.Quantity); // optional
             }
+            // تحديد مسار الملف حسب تاريخ اليوم
+            string logDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Logs");
+            Directory.CreateDirectory(logDir);
+            string fileName = DateTime.Now.ToString("yyyy-MM-dd") + ".txt";
+            string filePath = Path.Combine(logDir, fileName);
+
+            // بناء محتوى اللوج
+            List<string> logLines = new List<string>();
+            logLines.Add("--------------------------------------------------");
+            logLines.Add($"Order Time: {DateTime.Now:yyyy-MM-dd HH:mm:ss}");
+            logLines.Add($"Customer Name: {customerName}");
+            logLines.Add("Order Details:");
+
+            decimal totalAmount = 0;
+            foreach (var item in cartItems)
+            {
+                string productName = item.Product.Title;
+                int quantity = item.Quantity;
+                decimal price = item.Product.Price;
+                decimal subtotal = quantity * price;
+                totalAmount += subtotal;
+
+                logLines.Add($"- {productName} x{quantity} @ {price:0.00} EGP = {subtotal:0.00} EGP");
+            }
+
+            logLines.Add($"Total Amount: {totalAmount:0.00} EGP");
+            logLines.Add("--------------------------------------------------");
+
+            // الكتابة في الملف
+            File.AppendAllLines(filePath, logLines);
+
 
             MessageBox.Show("Order placed!");
             cartItems.Clear();

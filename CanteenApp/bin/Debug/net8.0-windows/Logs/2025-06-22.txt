@@ -1,0 +1,24 @@
+2025-06-22 16:49:49 - Username: Cashier One, Role: user logged in.
+--------------------------------------------------
+Order Time: 2025-06-22 16:50:14
+Customer Name: hamada
+Order Details:
+- Pepsi x1 @ 9.00 EGP = 9.00 EGP
+Total Amount: 9.00 EGP
+--------------------------------------------------
+2025-06-22 17:03:30 - Username: Admin User, Role: admin logged in.
+--------------------------------------------------
+Order Time: 2025-06-22 17:03:59
+Customer Name: bahaaaaaa
+Order Details:
+- Pepsi x1 @ 9.00 EGP = 9.00 EGP
+Total Amount: 9.00 EGP
+--------------------------------------------------
+2025-06-22 17:04:27 - Username: Cashier One, Role: user logged in.
+--------------------------------------------------
+Order Time: 2025-06-22 17:04:47
+Customer Name: tahaaaaa abo tezzzz
+Order Details:
+- Pepsi x1 @ 9.00 EGP = 9.00 EGP
+Total Amount: 9.00 EGP
+--------------------------------------------------
