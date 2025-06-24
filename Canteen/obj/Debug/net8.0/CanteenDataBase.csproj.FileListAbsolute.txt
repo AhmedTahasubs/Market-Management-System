@@ -34,3 +34,16 @@ H:\Subs\1-Work\ITI Projects\ADO\Canteen\Canteen\obj\Debug\net8.0\CanteenDataBase
 H:\Subs\1-Work\ITI Projects\ADO\Canteen\Canteen\obj\Debug\net8.0\refint\CanteenDataBase.dll
 H:\Subs\1-Work\ITI Projects\ADO\Canteen\Canteen\obj\Debug\net8.0\CanteenDataBase.pdb
 H:\Subs\1-Work\ITI Projects\ADO\Canteen\Canteen\obj\Debug\net8.0\ref\CanteenDataBase.dll
+D:\Hammad\App_VS\Canteen\Market-System-Managment\Canteen\bin\Debug\net8.0\CanteenDataBase.deps.json
+D:\Hammad\App_VS\Canteen\Market-System-Managment\Canteen\bin\Debug\net8.0\CanteenDataBase.dll
+D:\Hammad\App_VS\Canteen\Market-System-Managment\Canteen\bin\Debug\net8.0\CanteenDataBase.pdb
+D:\Hammad\App_VS\Canteen\Market-System-Managment\Canteen\obj\Debug\net8.0\CanteenDataBase.csproj.AssemblyReference.cache
+D:\Hammad\App_VS\Canteen\Market-System-Managment\Canteen\obj\Debug\net8.0\CanteenDataBase.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hammad\App_VS\Canteen\Market-System-Managment\Canteen\obj\Debug\net8.0\CanteenDataBase.AssemblyInfoInputs.cache
+D:\Hammad\App_VS\Canteen\Market-System-Managment\Canteen\obj\Debug\net8.0\CanteenDataBase.AssemblyInfo.cs
+D:\Hammad\App_VS\Canteen\Market-System-Managment\Canteen\obj\Debug\net8.0\CanteenDataBase.csproj.CoreCompileInputs.cache
+D:\Hammad\App_VS\Canteen\Market-System-Managment\Canteen\obj\Debug\net8.0\CanteenDataBase.sourcelink.json
+D:\Hammad\App_VS\Canteen\Market-System-Managment\Canteen\obj\Debug\net8.0\CanteenDataBase.dll
+D:\Hammad\App_VS\Canteen\Market-System-Managment\Canteen\obj\Debug\net8.0\refint\CanteenDataBase.dll
+D:\Hammad\App_VS\Canteen\Market-System-Managment\Canteen\obj\Debug\net8.0\CanteenDataBase.pdb
+D:\Hammad\App_VS\Canteen\Market-System-Managment\Canteen\obj\Debug\net8.0\ref\CanteenDataBase.dll

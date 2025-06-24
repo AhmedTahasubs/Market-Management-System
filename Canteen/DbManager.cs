@@ -17,7 +17,7 @@ namespace CanteenDataBase
         SqlDataAdapter adapter;
         public DbManager()
         {
-            conn = new SqlConnection("Data Source=.;Initial Catalog=Canteen;Integrated Security=True;Trust Server Certificate=True");
+            conn = new SqlConnection("Data Source=HAMMAD\\MSSQLSERVER01;Initial Catalog=CanteenDB;Integrated Security=True;Trust Server Certificate=True");
             cmd = new SqlCommand("", conn);
         }
         // Data Table
