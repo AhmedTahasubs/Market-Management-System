@@ -1,0 +1,18 @@
+2025-06-24 14:33:18 - Username: Ahmed Taha, Role: admin logged in.
+--------------------------------------------------
+Order Time: 2025-06-24 14:33:56
+Customer Name: hammad el mtnak
+Order Details:
+- Pepsi x2 @ 20.00 EGP = 40.00 EGP
+Total Amount: 40.00 EGP
+--------------------------------------------------
+2025-06-24 14:35:49 - Username: Ahmed Taha, Role: admin logged in.
+2025-06-24 14:46:50 - Username: alyhassam, Role: user logged in.
+2025-06-24 17:24:13 - Username: Ahmed Taha, Role: admin logged in.
+--------------------------------------------------
+Order Time: 2025-06-24 17:25:34
+Customer Name: ali
+Order Details:
+- Pepsi x2 @ 20.00 EGP = 40.00 EGP
+Total Amount: 40.00 EGP
+--------------------------------------------------

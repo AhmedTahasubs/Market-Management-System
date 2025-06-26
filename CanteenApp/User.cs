@@ -120,14 +120,34 @@ namespace CanteenApp
         }
         private void RefreshCartGrid()
         {
-            dataGridView2.DataSource = null;
+            dataGridView2.Columns.Clear(); // Clear previous setup
+
             dataGridView2.DataSource = cartItems.Select(i => new
             {
+                ProductId = i.ProductId,
                 Product = i.Product.Title,
-                i.Quantity,
+                Quantity = i.Quantity,
                 UnitPrice = i.Product.Price,
                 Total = i.TotalPrice
             }).ToList();
+
+            dataGridView2.Columns["ProductId"].Visible = false;
+
+            dataGridView2.Columns["Product"].HeaderText = "Product";
+            dataGridView2.Columns["Quantity"].HeaderText = "Qty";
+            dataGridView2.Columns["UnitPrice"].HeaderText = "Unit Price";
+            dataGridView2.Columns["Total"].HeaderText = "Total Price";
+
+            // Add delete button column (only once)
+            if (!dataGridView2.Columns.Contains("Delete"))
+            {
+                DataGridViewButtonColumn btnCol = new DataGridViewButtonColumn();
+                btnCol.Name = "Delete";
+                btnCol.HeaderText = "Remove";
+                btnCol.Text = "❌";
+                btnCol.UseColumnTextForButtonValue = true;
+                dataGridView2.Columns.Add(btnCol);
+            }
         }
         private void UpdateTotalLabel()
         {
@@ -246,6 +266,66 @@ namespace CanteenApp
         private void txtCustomerName_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void dataGridView2_CellDoubleClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+            if (e.RowIndex < 0) return;
+
+            // Get selected product title from cart grid
+            string productTitle = dataGridView2.Rows[e.RowIndex].Cells["Product"].Value.ToString();
+
+            // Find item in cartItems list
+            var item = cartItems.FirstOrDefault(i => i.Product.Title == productTitle);
+            if (item == null) return;
+
+            // Show the same quantity popup to allow user to change
+            var editForm = new FormAddQuantity(item.ProductId, item.Product.Title, item.Product.Price, item.Product.UnitsInStock + item.Quantity); // allow full stock back
+
+            // Set current quantity as default
+            editForm.Controls.OfType<NumericUpDown>().FirstOrDefault()?.Select();
+            editForm.Controls.OfType<NumericUpDown>().FirstOrDefault()!.Value = item.Quantity;
+
+            if (editForm.ShowDialog() == DialogResult.OK)
+            {
+                int newQuantity = editForm.SelectedQuantity;
+
+                if (newQuantity == 0)
+                {
+                    // Optionally delete from cart if quantity is 0
+                    cartItems.Remove(item);
+                }
+                else
+                {
+                    item.Quantity = newQuantity;
+                }
+
+                RefreshCartGrid();
+                UpdateTotalLabel();
+
+            }
+
+        }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == dataGridView2.Columns["Delete"].Index && e.RowIndex >= 0)
+            {
+                string productName = dataGridView2.Rows[e.RowIndex].Cells["Product"].Value.ToString();
+
+                var confirm = MessageBox.Show($"Remove '{productName}' from cart?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (confirm == DialogResult.Yes)
+                {
+                    var item = cartItems.FirstOrDefault(i => i.Product.Title == productName);
+                    if (item != null)
+                    {
+                        cartItems.Remove(item);
+                        RefreshCartGrid();
+                        UpdateTotalLabel();
+                    }
+                }
+            }
         }
     }
 }
