@@ -23,6 +23,14 @@ namespace CanteenApp
         {
             get { return Logoutbtn; }
         }
+        public Button ALlOrdersButton
+        {
+            get { return Orders; }
+        }
+        public Button CloseButton
+        {
+            get { return CloseBtn; }
+        }
         private void LoadProductsInDataGrid()
         {
             dataGridView1.Columns.Clear();
@@ -39,6 +47,7 @@ namespace CanteenApp
         private void User_Load(object sender, EventArgs e)
         {
             LoadProductsInDataGrid();
+
         }
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -326,6 +335,40 @@ namespace CanteenApp
                     }
                 }
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Create instance of Admin form
+            Admin adminForm = new Admin();
+
+            // Hook to its Load event so we can control visibility AFTER it fully loads
+            adminForm.Load += (s, args) =>
+            {
+                // Hide everything first
+                foreach (Control control in adminForm.Controls)
+                {
+                    control.Hide();
+                }
+
+                // Show only Order Management controls
+                Control? label = adminForm.Controls.Find("label10", true).FirstOrDefault();      // Label "Order Management"
+                Control? textbox = adminForm.Controls.Find("textBox4", true).FirstOrDefault();   // Search textbox
+                Control? grid = adminForm.Controls.Find("dataGridViewOrders", true).FirstOrDefault(); // Orders Grid
+
+                if (label != null) label.Show();
+                if (textbox != null) textbox.Show();
+                if (grid != null) grid.Show();
+                // Optionally, you can also show the Close button
+                adminForm.CloseButton.Visible = true;
+            };
+
+            adminForm.ShowDialog();
+        }
+
+        private void CloseBtn_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

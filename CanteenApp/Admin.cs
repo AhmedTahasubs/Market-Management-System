@@ -17,6 +17,10 @@ namespace CanteenApp
         {
             InitializeComponent();
         }
+        public Button CloseButton
+        {
+            get { return CloseBtn; }
+        }
         private void Admin_Load(object sender, EventArgs e)
         {
             LoadProductsInDataGrid();
@@ -671,10 +675,12 @@ namespace CanteenApp
         {
             User user = new User();
             user.SelectedButton.Hide();
+            user.ALlOrdersButton.Hide();
+            user.CloseButton.Visible = true;
             user.ShowDialog();
-            if (user.DialogResult == DialogResult.OK )
+            if (user.DialogResult == DialogResult.OK)
             {
-                LoadOrdersGrid();  
+                LoadOrdersGrid();
                 LoadProductsInComboBox();
                 LoadProductsInDataGrid();
 
@@ -685,6 +691,11 @@ namespace CanteenApp
                 LoadProductsInComboBox();
                 LoadProductsInDataGrid();
             }
+        }
+
+        private void CloseBtn_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

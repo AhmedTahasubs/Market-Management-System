@@ -138,8 +138,10 @@
             Controls.Add(txtCustomerName);
             Controls.Add(label2);
             Controls.Add(dataGridViewItems);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "FormEditOrder";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "FormEditOrder";
             ((System.ComponentModel.ISupportInitialize)dataGridViewItems).EndInit();
             ResumeLayout(false);

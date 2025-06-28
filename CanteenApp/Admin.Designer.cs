@@ -66,6 +66,7 @@
             button13 = new Button();
             Logoutbtn = new Button();
             button11 = new Button();
+            CloseBtn = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
@@ -482,11 +483,26 @@
             button11.UseVisualStyleBackColor = false;
             button11.Click += button11_Click;
             // 
+            // CloseBtn
+            // 
+            CloseBtn.BackColor = Color.Red;
+            CloseBtn.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            CloseBtn.ForeColor = Color.White;
+            CloseBtn.Location = new Point(294, 389);
+            CloseBtn.Name = "CloseBtn";
+            CloseBtn.Size = new Size(116, 29);
+            CloseBtn.TabIndex = 44;
+            CloseBtn.Text = "Close";
+            CloseBtn.UseVisualStyleBackColor = false;
+            CloseBtn.Visible = false;
+            CloseBtn.Click += CloseBtn_Click;
+            // 
             // Admin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(422, 430);
+            Controls.Add(CloseBtn);
             Controls.Add(button11);
             Controls.Add(Logoutbtn);
             Controls.Add(button13);
@@ -580,5 +596,6 @@
         private Button button13;
         private Button Logoutbtn;
         private Button button11;
+        private Button CloseBtn;
     }
 }

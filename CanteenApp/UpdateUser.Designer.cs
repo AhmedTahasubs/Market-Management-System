@@ -133,8 +133,8 @@
             Controls.Add(label2);
             Controls.Add(NameTxt);
             Controls.Add(UpdateBtn);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
-            Name = "UpdateUser";
             StartPosition = FormStartPosition.CenterParent;
             Text = "UpdateUser";
             Load += UpdateUser_Load;

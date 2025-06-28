@@ -131,8 +131,8 @@
             Controls.Add(label2);
             Controls.Add(NameTxt);
             Controls.Add(UpdateBtn);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
-            Name = "AddUser";
             StartPosition = FormStartPosition.CenterParent;
             Text = "AddUser";
             Load += AddUser_Load;

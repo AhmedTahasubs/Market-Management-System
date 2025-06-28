@@ -38,6 +38,8 @@
             txtCustomerName = new TextBox();
             label3 = new Label();
             Logoutbtn = new Button();
+            Orders = new Button();
+            CloseBtn = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             SuspendLayout();
@@ -45,7 +47,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(128, 3);
+            label1.Location = new Point(129, 7);
             label1.Name = "label1";
             label1.Size = new Size(93, 15);
             label1.TabIndex = 11;
@@ -53,7 +55,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(88, 21);
+            textBox1.Location = new Point(89, 25);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(173, 23);
             textBox1.TabIndex = 10;
@@ -62,7 +64,7 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(-1, 50);
+            dataGridView1.Location = new Point(0, 54);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(370, 165);
@@ -74,7 +76,7 @@
             // dataGridView2
             // 
             dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView2.Location = new Point(375, 50);
+            dataGridView2.Location = new Point(376, 54);
             dataGridView2.Name = "dataGridView2";
             dataGridView2.RowHeadersWidth = 51;
             dataGridView2.Size = new Size(555, 165);
@@ -86,7 +88,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(524, 12);
+            label2.Location = new Point(525, 16);
             label2.Name = "label2";
             label2.Size = new Size(122, 32);
             label2.TabIndex = 13;
@@ -96,7 +98,7 @@
             // 
             lblTotal.AutoSize = true;
             lblTotal.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblTotal.Location = new Point(375, 264);
+            lblTotal.Location = new Point(376, 268);
             lblTotal.Name = "lblTotal";
             lblTotal.Size = new Size(65, 32);
             lblTotal.TabIndex = 14;
@@ -107,7 +109,7 @@
             btnPlaceOrder.BackColor = Color.Green;
             btnPlaceOrder.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             btnPlaceOrder.ForeColor = Color.White;
-            btnPlaceOrder.Location = new Point(375, 298);
+            btnPlaceOrder.Location = new Point(376, 302);
             btnPlaceOrder.Name = "btnPlaceOrder";
             btnPlaceOrder.Size = new Size(172, 40);
             btnPlaceOrder.TabIndex = 15;
@@ -117,7 +119,7 @@
             // 
             // txtCustomerName
             // 
-            txtCustomerName.Location = new Point(375, 240);
+            txtCustomerName.Location = new Point(376, 244);
             txtCustomerName.Name = "txtCustomerName";
             txtCustomerName.Size = new Size(173, 23);
             txtCustomerName.TabIndex = 16;
@@ -127,7 +129,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(375, 218);
+            label3.Location = new Point(376, 222);
             label3.Name = "label3";
             label3.Size = new Size(116, 20);
             label3.TabIndex = 17;
@@ -138,7 +140,7 @@
             Logoutbtn.BackColor = Color.Red;
             Logoutbtn.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Logoutbtn.ForeColor = Color.White;
-            Logoutbtn.Location = new Point(788, 322);
+            Logoutbtn.Location = new Point(789, 326);
             Logoutbtn.Name = "Logoutbtn";
             Logoutbtn.Size = new Size(116, 29);
             Logoutbtn.TabIndex = 41;
@@ -146,11 +148,40 @@
             Logoutbtn.UseVisualStyleBackColor = false;
             Logoutbtn.Click += Logoutbtn_Click;
             // 
+            // Orders
+            // 
+            Orders.BackColor = Color.Green;
+            Orders.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Orders.ForeColor = Color.White;
+            Orders.Location = new Point(789, 268);
+            Orders.Name = "Orders";
+            Orders.Size = new Size(116, 29);
+            Orders.TabIndex = 42;
+            Orders.Text = "All Orders";
+            Orders.UseVisualStyleBackColor = false;
+            Orders.Click += button1_Click;
+            // 
+            // CloseBtn
+            // 
+            CloseBtn.BackColor = Color.Red;
+            CloseBtn.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            CloseBtn.ForeColor = Color.White;
+            CloseBtn.Location = new Point(789, 326);
+            CloseBtn.Name = "CloseBtn";
+            CloseBtn.Size = new Size(116, 29);
+            CloseBtn.TabIndex = 43;
+            CloseBtn.Text = "Close";
+            CloseBtn.UseVisualStyleBackColor = false;
+            CloseBtn.Visible = false;
+            CloseBtn.Click += CloseBtn_Click;
+            // 
             // User
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(930, 363);
+            ClientSize = new Size(931, 375);
+            Controls.Add(CloseBtn);
+            Controls.Add(Orders);
             Controls.Add(Logoutbtn);
             Controls.Add(label3);
             Controls.Add(txtCustomerName);
@@ -184,5 +215,7 @@
         private TextBox txtCustomerName;
         private Label label3;
         private Button Logoutbtn;
+        private Button Orders;
+        private Button CloseBtn;
     }
 }
