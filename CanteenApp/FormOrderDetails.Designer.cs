@@ -33,6 +33,7 @@
             lblTotal = new Label();
             dataGridViewItems = new DataGridView();
             button1 = new Button();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridViewItems).BeginInit();
             SuspendLayout();
             // 
@@ -89,12 +90,26 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
+            // button2
+            // 
+            button2.BackColor = Color.Green;
+            button2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(12, 242);
+            button2.Name = "button2";
+            button2.Size = new Size(90, 38);
+            button2.TabIndex = 5;
+            button2.Text = "Edit";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
             // FormOrderDetails
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(434, 292);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(dataGridViewItems);
             Controls.Add(lblTotal);
@@ -117,5 +132,6 @@
         private Label lblTotal;
         private DataGridView dataGridViewItems;
         private Button button1;
+        private Button button2;
     }
 }

@@ -13,6 +13,8 @@ namespace CanteenLogic.Entities
         public int ProductId { get; set; }
         public int Quantity { get; set; }
         public Product? Product { get; set; }
-        public int TotalPrice => (Product?.Price ?? 0) * Quantity;
+        public string ProductTitle => Product?.Title ?? "";
+        public int UnitPrice => Product?.Price ?? 0;
+        public int TotalPrice => UnitPrice * Quantity;
     }
 }

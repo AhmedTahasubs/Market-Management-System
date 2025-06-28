@@ -162,6 +162,7 @@
             Controls.Add(textBox1);
             Controls.Add(dataGridView1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "User";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "User";

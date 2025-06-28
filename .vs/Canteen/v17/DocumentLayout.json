@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|h:\\subs\\1-work\\iti projects\\ado\\canteen\\canteenapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|h:\\subs\\1-work\\iti projects\\ado\\canteen\\canteenapp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|h:\\subs\\1-work\\iti projects\\ado\\canteen\\canteenapp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|h:\\subs\\1-work\\iti projects\\ado\\canteen\\canteenapp\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,57 +38,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenApp\\Program.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\Program.cs",
-              "ToolTip": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenApp\\Program.cs",
-              "RelativeToolTip": "CanteenApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T14:59:05.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenApp\\User.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\User.cs",
-              "ToolTip": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenApp\\User.cs",
-              "RelativeToolTip": "CanteenApp\\User.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAQwEEBAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T14:44:45.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs [Design]",
-              "DocumentMoniker": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenApp\\User.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\User.cs",
-              "ToolTip": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenApp\\User.cs [Design]",
-              "RelativeToolTip": "CanteenApp\\User.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T14:44:42.985Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cs",
-              "DocumentMoniker": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenApp\\Login.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\Login.cs",
-              "ToolTip": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenApp\\Login.cs",
-              "RelativeToolTip": "CanteenApp\\Login.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAuwB8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T11:36:34.349Z",
-              "EditorCaption": ""
             }
           ]
         }

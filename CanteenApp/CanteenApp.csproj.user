@@ -16,6 +16,9 @@
     <Compile Update="FormAddQuantity.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormEditOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormOrderDetails.cs">
       <SubType>Form</SubType>
     </Compile>

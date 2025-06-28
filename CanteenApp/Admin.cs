@@ -651,15 +651,13 @@ namespace CanteenApp
             if (e.RowIndex < 0) return;
 
             int orderId = Convert.ToInt32(dataGridViewOrders.Rows[e.RowIndex].Cells["Id"].Value);
-
             var order = OrdersManager.GetOrderById(orderId);
-            if (order == null) return;
-
-            // Load order items
             order.Items = OrderItemsManager.GetOrderItems(orderId);
 
             using var form = new FormOrderDetails(order);
             form.ShowDialog();
+
+            LoadOrdersGrid(); // refresh admin grid after any change
         }
 
         private void Logoutbtn_Click(object sender, EventArgs e)
