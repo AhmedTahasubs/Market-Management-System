@@ -662,6 +662,8 @@ namespace CanteenApp
             form.ShowDialog();
 
             LoadOrdersGrid(); // refresh admin grid after any change
+            LoadProductsInComboBox(); // refresh products in combo box
+            LoadProductsInDataGrid(); // refresh products in data grid
         }
 
         private void Logoutbtn_Click(object sender, EventArgs e)

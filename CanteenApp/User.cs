@@ -364,6 +364,14 @@ namespace CanteenApp
             };
 
             adminForm.ShowDialog();
+            if (adminForm.DialogResult == DialogResult.OK)
+            {
+                LoadProductsInDataGrid();
+            }
+            else
+            {
+                LoadProductsInDataGrid();
+            }
         }
 
         private void CloseBtn_Click(object sender, EventArgs e)
