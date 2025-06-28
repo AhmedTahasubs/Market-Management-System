@@ -114,5 +114,16 @@ namespace CanteenLogic
             DbManager dbManager = new DbManager();
             dbManager.ExecuteNonQuery(sql, parameters);
         }
+        public static void UpdateUnitsInStock(int productId, int quantityChange)
+        {
+            string sql = "UPDATE Products SET UnitsInStock = UnitsInStock + @Change WHERE Id = @ProductId";
+            var parameters = new Dictionary<string, object>
+            {
+                { "@Change", quantityChange },
+                { "@ProductId", productId }
+            };
+            DbManager dbManager = new DbManager();
+            dbManager.ExecuteNonQuery(sql, parameters);
+        }
     }
 }

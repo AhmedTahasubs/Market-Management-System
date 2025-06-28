@@ -1,0 +1,52 @@
+2025-06-28 16:00:36 - Username: Ahmed Taha, Role: admin logged in.
+--------------------------------------------------
+Order Time: 2025-06-28 16:02:41
+Customer Name: hassan
+Order Details:
+- Coke x3 @ 25.00 EGP = 75.00 EGP
+Total Amount: 75.00 EGP
+--------------------------------------------------
+2025-06-28 16:04:01 - Username: Ahmed Taha, Role: admin logged in.
+--------------------------------------------------
+Order Time: 2025-06-28 16:04:18
+Customer Name: hsssam
+Order Details:
+- Coke x3 @ 25.00 EGP = 75.00 EGP
+Total Amount: 75.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+Order Time: 2025-06-28 16:06:35
+Customer Name: ahmed
+Order Details:
+- Coke x1 @ 25.00 EGP = 25.00 EGP
+Total Amount: 25.00 EGP
+--------------------------------------------------
+2025-06-28 16:07:26 - Username: alyhassam, Role: user logged in.
+--------------------------------------------------
+Order Time: 2025-06-28 16:08:27
+Customer Name: hossam el mrs
+Order Details:
+- Coke x2 @ 25.00 EGP = 50.00 EGP
+Total Amount: 50.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+Order Time: 2025-06-28 16:14:25
+Customer Name: alaa
+Order Details:
+- Pepsi x5 @ 20.00 EGP = 100.00 EGP
+Total Amount: 100.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+Order Time: 2025-06-28 17:28:04
+Customer Name: nermeen
+Order Details:
+- Pepsi x5 @ 20.00 EGP = 100.00 EGP
+Total Amount: 100.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+Order Time: 2025-06-28 17:28:45
+Customer Name: alaaa
+Order Details:
+- Pepsi x5 @ 20.00 EGP = 100.00 EGP
+Total Amount: 100.00 EGP
+--------------------------------------------------

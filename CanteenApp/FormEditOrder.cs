@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CanteenLogic;
@@ -79,24 +80,48 @@ namespace CanteenApp
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            // Validate all items before saving
-            foreach (var item in updatedItems)
+            string customerName = txtCustomerName.Text.Trim();
+            if (!Regex.IsMatch(customerName, @"^[a-zA-Z\s]+$"))
             {
-                if (item.Quantity <= 0)
+                // Invalid: contains characters other than letters or space
+                MessageBox.Show("Customer name must contain only letters.");
+                return;
+            }
+            if (string.IsNullOrEmpty(customerName))
+            {
+                MessageBox.Show("Please enter customer name.");
+                return;
+            }
+            currentOrder.CustomerName = customerName;
+            OrdersManager.UpdateOrder(currentOrder);
+
+            // Get the original order items from DB again
+            var originalItems = OrderItemsManager.GetOrderItems(currentOrder.Id);
+
+            // Handle stock adjustment based on quantity changes
+            foreach (var originalItem in originalItems)
+            {
+                var updatedItem = updatedItems.FirstOrDefault(i => i.ProductId == originalItem.ProductId);
+
+                if (updatedItem != null)
                 {
-                    MessageBox.Show("Cannot save. One or more items have invalid quantities.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
+                    int quantityDiff = originalItem.Quantity - updatedItem.Quantity;
+
+                    // Positive means return to stock, negative means take from stock
+                    if (quantityDiff != 0)
+                    {
+                        ProductsManager.UpdateUnitsInStock(updatedItem.ProductId, quantityDiff);
+                    }
+                }
+                else
+                {
+                    // Item was removed completely => restore full quantity
+                    ProductsManager.UpdateUnitsInStock(originalItem.ProductId, originalItem.Quantity);
                 }
             }
 
-            // Update customer name
-            currentOrder.CustomerName = txtCustomerName.Text.Trim();
-            OrdersManager.UpdateOrder(currentOrder);
-
-            // Remove old items
+            // Delete old items and add updated ones
             OrderItemsManager.DeleteItemsByOrderId(currentOrder.Id);
-
-            // Add updated items
             foreach (var item in updatedItems)
             {
                 item.OrderId = currentOrder.Id;

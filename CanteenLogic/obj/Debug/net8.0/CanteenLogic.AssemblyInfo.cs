@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CanteenLogic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a233f7ff95b5a0dc653f68d9fba58e31592271e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04d4400d983f398eec8954a4015d8a4b163dac55")]
 [assembly: System.Reflection.AssemblyProductAttribute("CanteenLogic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CanteenLogic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
