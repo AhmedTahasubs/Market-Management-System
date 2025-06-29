@@ -290,7 +290,7 @@ namespace CanteenApp
             if (item == null) return;
 
             // Show the same quantity popup to allow user to change
-            var editForm = new FormAddQuantity(item.ProductId, item.Product.Title, item.Product.Price, item.Product.UnitsInStock + item.Quantity); // allow full stock back
+            var editForm = new FormAddQuantity(item.ProductId, item.Product.Title, item.Product.Price, item.Product.UnitsInStock ); // allow full stock back
 
             // Set current quantity as default
             editForm.Controls.OfType<NumericUpDown>().FirstOrDefault()?.Select();

@@ -1,0 +1,39 @@
+2025-06-29 10:21:29 - Username: Admin User, Role: admin logged in.
+2025-06-29 10:22:09 - Username: Admin User, Role: admin logged in.
+--------------------------------------------------
+Order Time: 2025-06-29 10:23:36
+Customer Name: taha
+Order Details:
+- Coca Cola x10 @ 10.00 EGP = 100.00 EGP
+Total Amount: 100.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+Order Time: 2025-06-29 10:26:26
+Customer Name: hassan
+Order Details:
+- Coca Cola x5 @ 10.00 EGP = 50.00 EGP
+Total Amount: 50.00 EGP
+--------------------------------------------------
+2025-06-29 13:39:53 - Username: Admin User, Role: admin logged in.
+--------------------------------------------------
+Order Time: 2025-06-29 13:41:40
+Customer Name: ahmed
+Order Details:
+- Coca Cola x90 @ 10.00 EGP = 900.00 EGP
+Total Amount: 900.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+Order Time: 2025-06-29 13:42:51
+Customer Name: dina
+Order Details:
+- Pepsi x60 @ 9.00 EGP = 540.00 EGP
+Total Amount: 540.00 EGP
+--------------------------------------------------
+2025-06-29 14:02:18 - Username: Cashier One, Role: user logged in.
+--------------------------------------------------
+Order Time: 2025-06-29 14:02:56
+Customer Name: alo
+Order Details:
+- Coca Cola x44 @ 10.00 EGP = 440.00 EGP
+Total Amount: 440.00 EGP
+--------------------------------------------------
