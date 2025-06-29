@@ -34,7 +34,7 @@ namespace CanteenApp
         private void LoadProductsInDataGrid()
         {
             dataGridView1.Columns.Clear();
-            dataGridView1.DataSource = ProductsManager.GetProducts();
+            dataGridView1.DataSource = ProductsManager.GetProducts() ?? new List<Product>();
             dataGridView1.ReadOnly = true;
             dataGridView1.Columns["Id"].Visible = false;
             dataGridView1.Columns["CategoryId"].Visible = false;

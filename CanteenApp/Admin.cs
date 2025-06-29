@@ -133,17 +133,17 @@ namespace CanteenApp
 
         private void LoadProductsInComboBox()
         {
-            comboBox1.DataSource = ProductsManager.GetProducts();
+            comboBox1.DataSource = ProductsManager.GetProducts() ?? new List<Product>();
             comboBox1.DisplayMember = "Title";
             comboBox1.ValueMember = "Id";
             comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             //---------------------------------------------------
-            comboBox2.DataSource = CategoriesManager.GetCategories();
+            comboBox2.DataSource = CategoriesManager.GetCategories() ?? new List<Category>();
             comboBox2.DisplayMember = "Name";
             comboBox2.ValueMember = "Id";
             comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
             //---------------------------------------------------
-            comboBox3.DataSource = UsersManager.GetUsers();
+            comboBox3.DataSource = UsersManager.GetUsers() ?? new UsersList();
             comboBox3.DisplayMember = "Name";
             comboBox3.ValueMember = "Id";
             comboBox3.DropDownStyle = ComboBoxStyle.DropDownList;
@@ -151,7 +151,7 @@ namespace CanteenApp
         private void LoadProductsInDataGrid()
         {
             dataGridView1.Columns.Clear();
-            dataGridView1.DataSource = ProductsManager.GetProducts();
+            dataGridView1.DataSource = ProductsManager.GetProducts() ?? new List<Product>();
             dataGridView1.ReadOnly = true;
             dataGridView1.Columns["Id"].Visible = false;
             dataGridView1.Columns["CategoryId"].Visible = false;
@@ -161,13 +161,13 @@ namespace CanteenApp
             dataGridView1.Columns["IsEmpty"].Visible = false;
             //------------------------------------------------------
             dataGridView2.Columns.Clear();
-            dataGridView2.DataSource = CategoriesManager.GetCategories();
+            dataGridView2.DataSource = CategoriesManager.GetCategories() ?? new List<Category>();
             dataGridView2.ReadOnly = true;
             dataGridView2.Columns["Id"].Visible = false;
             dataGridView2.Columns["Name"].HeaderText = "Category Name";
             //------------------------------------------------------
             dataGridView3.Columns.Clear();
-            dataGridView3.DataSource = UsersManager.GetUsers();
+            dataGridView3.DataSource = UsersManager.GetUsers() ?? new UsersList();
             dataGridView3.ReadOnly = true;
             dataGridView3.Columns["Id"].Visible = false;
             dataGridView3.Columns["Name"].HeaderText = "User Name";

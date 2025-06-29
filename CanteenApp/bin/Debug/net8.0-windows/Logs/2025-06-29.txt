@@ -37,3 +37,5 @@ Order Details:
 - Coca Cola x44 @ 10.00 EGP = 440.00 EGP
 Total Amount: 440.00 EGP
 --------------------------------------------------
+2025-06-29 14:17:26 - Username: Admin User, Role: admin logged in.
+2025-06-29 14:19:38 - Username: Admin User, Role: admin logged in.
