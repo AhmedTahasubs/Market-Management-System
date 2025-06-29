@@ -1666,23 +1666,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\muham\\.nuget\\packages\\": {},
+    "C:\\Users\\Taha\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muham\\OneDrive\\Desktop\\Canteen\\Market-System-Managment\\Canteen\\CanteenDataBase.csproj",
+      "projectUniqueName": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\Canteen\\CanteenDataBase.csproj",
       "projectName": "CanteenDataBase",
-      "projectPath": "C:\\Users\\muham\\OneDrive\\Desktop\\Canteen\\Market-System-Managment\\Canteen\\CanteenDataBase.csproj",
-      "packagesPath": "C:\\Users\\muham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\muham\\OneDrive\\Desktop\\Canteen\\Market-System-Managment\\Canteen\\obj\\",
+      "projectPath": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\Canteen\\CanteenDataBase.csproj",
+      "packagesPath": "C:\\Users\\Taha\\.nuget\\packages\\",
+      "outputPath": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\Canteen\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\muham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Taha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

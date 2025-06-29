@@ -90,13 +90,13 @@ namespace CanteenLogic
         public static List<object> GetOrdersSummary()
         {
             string sql = @"
-        SELECT o.Id, o.CustomerName, o.OrderDate, 
-               ISNULL(SUM(oi.Quantity * p.Price), 0) AS TotalAmount
-        FROM Orders o
-        LEFT JOIN OrderItems oi ON o.Id = oi.OrderId
-        LEFT JOIN Products p ON oi.ProductId = p.Id
-        GROUP BY o.Id, o.CustomerName, o.OrderDate
-        ORDER BY o.OrderDate DESC";
+            SELECT o.Id, o.CustomerName, o.OrderDate, 
+                   ISNULL(SUM(oi.Quantity * p.ForSellPrice), 0) AS TotalAmount
+            FROM Orders o
+            LEFT JOIN OrderItems oi ON o.Id = oi.OrderId
+            LEFT JOIN Products p ON oi.ProductId = p.Id
+            GROUP BY o.Id, o.CustomerName, o.OrderDate
+            ORDER BY o.OrderDate DESC";
 
             var dt = dbManager.GetDataTable(sql);
 

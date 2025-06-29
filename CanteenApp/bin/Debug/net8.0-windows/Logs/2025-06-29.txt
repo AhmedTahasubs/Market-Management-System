@@ -39,3 +39,24 @@ Total Amount: 440.00 EGP
 --------------------------------------------------
 2025-06-29 14:17:26 - Username: Admin User, Role: admin logged in.
 2025-06-29 14:19:38 - Username: Admin User, Role: admin logged in.
+2025-06-29 20:02:33 - Username: Ahmed Taha, Role: admin logged in.
+--------------------------------------------------
+Order Time: 2025-06-29 20:03:28
+Customer Name: eman
+Order Details:
+- Pepsi x14 @ 40.00 EGP = 560.00 EGP
+Total Amount: 560.00 EGP
+--------------------------------------------------
+2025-06-29 21:09:08 - Username: Ahmed Taha, Role: admin logged in.
+2025-06-29 21:11:38 - Username: Ahmed Taha, Role: admin logged in.
+2025-06-29 21:12:51 - Username: Ahmed Taha, Role: admin logged in.
+2025-06-29 21:14:44 - Username: Ahmed Taha, Role: admin logged in.
+2025-06-29 21:15:31 - Username: Ahmed Taha, Role: admin logged in.
+2025-06-29 21:17:00 - Username: Ahmed Taha, Role: admin logged in.
+--------------------------------------------------
+Order Time: 2025-06-29 21:18:16
+Customer Name: ahmed
+Order Details:
+- Pepsi x4 @ 40.00 EGP = 160.00 EGP
+Total Amount: 160.00 EGP
+--------------------------------------------------

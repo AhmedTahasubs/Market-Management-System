@@ -20,14 +20,19 @@ namespace CanteenApp
 
         private void UpdateBtn_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(Name.Text) || string.IsNullOrWhiteSpace(Price.Text) || comboBox1.SelectedItem == null || string.IsNullOrWhiteSpace(Units.Text))
+            if (string.IsNullOrWhiteSpace(Name.Text) || string.IsNullOrWhiteSpace(OriginalPriceTxt.Text) || comboBox1.SelectedItem == null || string.IsNullOrWhiteSpace(Units.Text))
             {
                 MessageBox.Show("Please fill in all fields.");
                 return;
             }
-            if (!int.TryParse(Price.Text, out int price) || price <= 0)
+            if (!int.TryParse(OriginalPriceTxt.Text, out int original) || original <= 0)
             {
-                MessageBox.Show("Please enter a valid price greater than 0.");
+                MessageBox.Show("Invalid original price.");
+                return;
+            }
+            if (!int.TryParse(ForSellPriceTxt.Text, out int sell) || sell <= 0)
+            {
+                MessageBox.Show("Invalid selling price.");
                 return;
             }
             if (!int.TryParse(Units.Text, out int units) || units < 0)
@@ -43,7 +48,8 @@ namespace CanteenApp
             Product product = new Product
             {
                 Title = Name.Text.Trim(),
-                Price = price,
+                OriginalPrice = original,
+                ForSellPrice = sell,
                 UnitsInStock = units,
                 CategoryId = int.TryParse(comboBox1?.SelectedValue?.ToString(), out int categoryId) ? categoryId : 0
             };

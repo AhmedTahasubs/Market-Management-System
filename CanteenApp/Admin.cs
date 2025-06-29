@@ -151,14 +151,35 @@ namespace CanteenApp
         private void LoadProductsInDataGrid()
         {
             dataGridView1.Columns.Clear();
-            dataGridView1.DataSource = ProductsManager.GetProducts() ?? new List<Product>();
+            var products = ProductsManager.GetProducts() ?? new List<Product>();
+            dataGridView1.DataSource = products;
             dataGridView1.ReadOnly = true;
+
             dataGridView1.Columns["Id"].Visible = false;
             dataGridView1.Columns["CategoryId"].Visible = false;
-            dataGridView1.Columns["Title"].HeaderText = "Product Name";
-            dataGridView1.Columns["Price"].HeaderText = "Price (EGP)";
-            dataGridView1.Columns["UnitsInStock"].HeaderText = "Available Stock";
-            dataGridView1.Columns["IsEmpty"].Visible = false;
+
+            // Optional: Hide Price column if it's no longer used
+            if (dataGridView1.Columns.Contains("Price"))
+                dataGridView1.Columns["Price"].Visible = false;
+
+            // New Columns
+            if (dataGridView1.Columns.Contains("Title"))
+                dataGridView1.Columns["Title"].HeaderText = "Product Name";
+
+            if (dataGridView1.Columns.Contains("OriginalPrice"))
+                dataGridView1.Columns["OriginalPrice"].HeaderText = "Original Price";
+
+            if (dataGridView1.Columns.Contains("ForSellPrice"))
+                dataGridView1.Columns["ForSellPrice"].HeaderText = "Selling Price";
+
+            if (dataGridView1.Columns.Contains("Profit"))
+                dataGridView1.Columns["Profit"].HeaderText = "Profit";
+
+            if (dataGridView1.Columns.Contains("UnitsInStock"))
+                dataGridView1.Columns["UnitsInStock"].HeaderText = "Available Stock";
+
+            if (dataGridView1.Columns.Contains("IsEmpty"))
+                dataGridView1.Columns["IsEmpty"].Visible = false;
             //------------------------------------------------------
             dataGridView2.Columns.Clear();
             dataGridView2.DataSource = CategoriesManager.GetCategories() ?? new List<Category>();
@@ -587,15 +608,27 @@ namespace CanteenApp
         }
         private void LoadOrdersGrid()
         {
-            dataGridViewOrders.DataSource = OrdersManager.GetOrdersSummary();
-            if (dataGridViewOrders.DataSource == null)
+            var data = OrdersManager.GetOrdersSummary();
+
+            if (data == null || data.Count == 0)
             {
                 dataGridViewOrders.DataSource = new List<object>();
+                return;
             }
-            dataGridViewOrders.Columns["Id"].HeaderText = "Order ID";
-            dataGridViewOrders.Columns["CustomerName"].HeaderText = "Customer";
-            dataGridViewOrders.Columns["OrderDate"].HeaderText = "Date";
-            dataGridViewOrders.Columns["TotalAmount"].HeaderText = "Total (EGP)";
+
+            dataGridViewOrders.DataSource = data;
+
+            if (dataGridViewOrders.Columns.Contains("Id"))
+                dataGridViewOrders.Columns["Id"].HeaderText = "Order ID";
+
+            if (dataGridViewOrders.Columns.Contains("CustomerName"))
+                dataGridViewOrders.Columns["CustomerName"].HeaderText = "Customer";
+
+            if (dataGridViewOrders.Columns.Contains("OrderDate"))
+                dataGridViewOrders.Columns["OrderDate"].HeaderText = "Date";
+
+            if (dataGridViewOrders.Columns.Contains("TotalAmount"))
+                dataGridViewOrders.Columns["TotalAmount"].HeaderText = "Total (EGP)";
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)

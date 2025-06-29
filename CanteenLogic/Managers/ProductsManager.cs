@@ -22,7 +22,8 @@ namespace CanteenLogic
                 {
                     Id = Convert.ToInt32(row["Id"]),
                     Title = row["Title"].ToString(),
-                    Price = Convert.ToInt32(row["Price"]),
+                    OriginalPrice = Convert.ToInt32(row["OriginalPrice"]),
+                    ForSellPrice = Convert.ToInt32(row["ForSellPrice"]),
                     UnitsInStock = Convert.ToInt32(row["UnitsInStock"]),
                     CategoryId = Convert.ToInt32(row["CategoryId"])
                 };
@@ -38,19 +39,24 @@ namespace CanteenLogic
             {
                 { "@Name", "%" + name + "%" }
             };
+
             var dt = dbManager.GetDataTable(query, parameters);
+
             foreach (DataRow row in dt.Rows)
             {
                 Product product = new Product
                 {
                     Id = Convert.ToInt32(row["Id"]),
                     Title = row["Title"].ToString(),
-                    Price = Convert.ToInt32(row["Price"]),
+                    OriginalPrice = Convert.ToInt32(row["OriginalPrice"]),
+                    ForSellPrice = Convert.ToInt32(row["ForSellPrice"]),
                     UnitsInStock = Convert.ToInt32(row["UnitsInStock"]),
                     CategoryId = Convert.ToInt32(row["CategoryId"])
                 };
+
                 products.Add(product);
             }
+
             return products.Count > 0 ? products : null;
         }
         public static Product? GetProductById(int id)
@@ -58,27 +64,30 @@ namespace CanteenLogic
             string query = "SELECT * FROM Products WHERE Id = @Id";
             var parameters = new Dictionary<string, object> { { "@Id", id } };
             var dt = dbManager.GetDataTable(query, parameters);
-            if (dt.Rows.Count > 0)
+
+            if (dt.Rows.Count == 0) return null;
+
+            DataRow row = dt.Rows[0];
+            Product product = new Product
             {
-                DataRow row = dt.Rows[0];
-                return new Product
-                {
-                    Id = Convert.ToInt32(row["Id"]),
-                    Title = row["Title"].ToString(),
-                    Price = Convert.ToInt32(row["Price"]),
-                    UnitsInStock = Convert.ToInt32(row["UnitsInStock"]),
-                    CategoryId = Convert.ToInt32(row["CategoryId"])
-                };
-            }
-            return null;
+                Id = Convert.ToInt32(row["Id"]),
+                Title = row["Title"].ToString(),
+                OriginalPrice = Convert.ToInt32(row["OriginalPrice"]),
+                ForSellPrice = Convert.ToInt32(row["ForSellPrice"]),
+                UnitsInStock = Convert.ToInt32(row["UnitsInStock"]),
+                CategoryId = Convert.ToInt32(row["CategoryId"])
+            };
+
+            return product;
         }
         public static int AddProduct(Product product)
         {
-            string query = "INSERT INTO Products (Title, Price, UnitsInStock, CategoryId) VALUES (@Title, @Price, @UnitsInStock, @CategoryId)";
+            string query = "INSERT INTO Products (Title, OriginalPrice, ForSellPrice, UnitsInStock, CategoryId) VALUES (@Title, @OriginalPrice, @ForSellPrice, @UnitsInStock, @CategoryId)";
             var parameters = new Dictionary<string, object>
             {
                 { "@Title", product.Title },
-                { "@Price", product.Price },
+                { "@OriginalPrice", product.OriginalPrice },
+                { "@ForSellPrice", product.ForSellPrice },
                 { "@UnitsInStock", product.UnitsInStock },
                 { "@CategoryId", product.CategoryId }
             };
@@ -86,11 +95,12 @@ namespace CanteenLogic
         }
         public static int UpdateProduct(Product product)
         {
-            string query = "UPDATE Products SET Title = @Title, Price = @Price, UnitsInStock = @UnitsInStock WHERE Id = @Id";
+            string query = "UPDATE Products SET Title = @Title, OriginalPrice = @OriginalPrice, ForSellPrice = @ForSellPrice, UnitsInStock = @UnitsInStock WHERE Id = @Id";
             var parameters = new Dictionary<string, object>
             {
                 { "@Title", product.Title },
-                { "@Price", product.Price },
+                { "@OriginalPrice", product.OriginalPrice },
+                { "@ForSellPrice", product.ForSellPrice },
                 { "@UnitsInStock", product.UnitsInStock },
                 { "@Id", product.Id }
             };

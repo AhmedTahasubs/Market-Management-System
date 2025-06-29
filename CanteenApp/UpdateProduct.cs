@@ -32,10 +32,12 @@ namespace CanteenApp
                 Close();
                 return;
             }
+
             this.product = product;
             NameTxt.Text = product.Title;
-            PriceTxt.Text = product.Price.ToString();
             UnitsTxt.Text = product.UnitsInStock.ToString();
+            OriginalPriceTxt.Text = product.OriginalPrice.ToString();
+            ForSellPriceTxt.Text = product.ForSellPrice.ToString();
         }
         private void UpdateProduct_Load(object sender, EventArgs e)
         {
@@ -44,26 +46,38 @@ namespace CanteenApp
 
         private void UpdateBtn_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(NameTxt.Text) || string.IsNullOrWhiteSpace(PriceTxt.Text) || string.IsNullOrWhiteSpace(UnitsTxt.Text))
+            if (string.IsNullOrWhiteSpace(NameTxt.Text) ||
+        string.IsNullOrWhiteSpace(OriginalPriceTxt.Text) ||
+        string.IsNullOrWhiteSpace(ForSellPriceTxt.Text) ||
+        string.IsNullOrWhiteSpace(UnitsTxt.Text))
             {
                 MessageBox.Show("Please fill in all fields.");
                 return;
             }
-            if (!int.TryParse(PriceTxt.Text, out int price) || price <= 0)
+
+            if (!int.TryParse(OriginalPriceTxt.Text, out int originalPrice) || originalPrice <= 0)
             {
-                MessageBox.Show("Please enter a valid price greater than 0.");
+                MessageBox.Show("Invalid original price.");
                 return;
             }
+
+            if (!int.TryParse(ForSellPriceTxt.Text, out int forSellPrice) || forSellPrice <= 0)
+            {
+                MessageBox.Show("Invalid selling price.");
+                return;
+            }
+
             if (!int.TryParse(UnitsTxt.Text, out int units) || units < 0)
             {
-                MessageBox.Show("Please enter a valid number of units in stock (0 or more).");
+                MessageBox.Show("Invalid number of units in stock.");
                 return;
             }
+
             product.Title = NameTxt.Text.Trim();
-            product.Price = price;
+            product.OriginalPrice = originalPrice;
+            product.ForSellPrice = forSellPrice;
             product.UnitsInStock = units;
-            product.CategoryId = product.CategoryId;
-            product.Id = product.Id;
+
             int res = ProductsManager.UpdateProduct(product);
             if (res > 0)
             {
