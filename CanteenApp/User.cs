@@ -42,6 +42,10 @@ namespace CanteenApp
             dataGridView1.Columns["Price"].HeaderText = "Price (EGP)";
             dataGridView1.Columns["UnitsInStock"].HeaderText = "Available Stock";
             dataGridView1.Columns["IsEmpty"].Visible = false;
+            dataGridView1.Columns["OriginalPrice"].Visible = false;
+            dataGridView1.Columns["ForSellPrice"].Visible = false;
+            dataGridView1.Columns["Profit"].Visible = false;
+
         }
 
         private void User_Load(object sender, EventArgs e)
@@ -107,6 +111,7 @@ namespace CanteenApp
                     return;
                 }
                 existing.Quantity = totalQty;
+                existing.UnitPrice = product.ForSellPrice;
             }
             else
             {
@@ -120,7 +125,8 @@ namespace CanteenApp
                 {
                     ProductId = productId,
                     Product = product,
-                    Quantity = quantity
+                    Quantity = quantity,
+                    UnitPrice = product.ForSellPrice
                 });
             }
 
@@ -136,7 +142,7 @@ namespace CanteenApp
                 ProductId = i.ProductId,
                 Product = i.Product.Title,
                 Quantity = i.Quantity,
-                UnitPrice = i.Product.Price,
+                UnitPrice = i.UnitPrice,
                 Total = i.TotalPrice
             }).ToList();
 
@@ -222,8 +228,9 @@ namespace CanteenApp
             foreach (var item in cartItems)
             {
                 item.OrderId = orderId;
+                item.UnitPrice = item.Product.ForSellPrice; 
                 OrderItemsManager.AddOrderItem(item);
-                ProductsManager.DecreaseStock(item.ProductId, item.Quantity); // optional
+                ProductsManager.DecreaseStock(item.ProductId, item.Quantity);
             }
             // تحديد مسار الملف حسب تاريخ اليوم
             string logDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Logs");
@@ -243,7 +250,7 @@ namespace CanteenApp
             {
                 string productName = item.Product.Title;
                 int quantity = item.Quantity;
-                decimal price = item.Product.Price;
+                decimal price = item.UnitPrice;
                 decimal subtotal = quantity * price;
                 totalAmount += subtotal;
 

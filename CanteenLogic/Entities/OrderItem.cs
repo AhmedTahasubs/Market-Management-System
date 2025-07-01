@@ -12,9 +12,10 @@ namespace CanteenLogic.Entities
         public int OrderId { get; set; }
         public int ProductId { get; set; }
         public int Quantity { get; set; }
+        public int UnitPrice { get; set; } // Not from Product anymore
         public Product? Product { get; set; }
+
         public string ProductTitle => Product?.Title ?? "";
-        public int UnitPrice => Product?.ForSellPrice ?? 0;
         public int TotalPrice => UnitPrice * Quantity;
     }
 }

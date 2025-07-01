@@ -15,13 +15,14 @@ namespace CanteenLogic
 
         public static int AddOrderItem(OrderItem item)
         {
-            string sql = "INSERT INTO OrderItems (OrderId, ProductId, Quantity) VALUES (@OrderId, @ProductId, @Quantity)";
+            string sql = "INSERT INTO OrderItems (OrderId, ProductId, Quantity, UnitPrice) VALUES (@OrderId, @ProductId, @Quantity, @UnitPrice)";
             var parameters = new Dictionary<string, object>
-        {
-            { "@OrderId", item.OrderId },
-            { "@ProductId", item.ProductId },
-            { "@Quantity", item.Quantity }
-        };
+            {
+                { "@OrderId", item.OrderId },
+                { "@ProductId", item.ProductId },
+                { "@Quantity", item.Quantity },
+                { "@UnitPrice", item.UnitPrice } // save current product price
+            };
             return dbManager.ExecuteNonQuery(sql, parameters);
         }
 
@@ -39,6 +40,7 @@ namespace CanteenLogic
                     OrderId = Convert.ToInt32(row["OrderId"]),
                     ProductId = Convert.ToInt32(row["ProductId"]),
                     Quantity = Convert.ToInt32(row["Quantity"]),
+                    UnitPrice = Convert.ToInt32(row["UnitPrice"]),
                     Product = ProductsManager.GetProductById(Convert.ToInt32(row["ProductId"]))
                 });
             }
