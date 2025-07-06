@@ -241,6 +241,7 @@ namespace CanteenApp
             // بناء محتوى اللوج
             List<string> logLines = new List<string>();
             logLines.Add("--------------------------------------------------");
+            logLines.Add($"Order ID: {orderId}");
             logLines.Add($"Order Time: {DateTime.Now:yyyy-MM-dd HH:mm:ss}");
             logLines.Add($"Customer Name: {customerName}");
             logLines.Add("Order Details:");

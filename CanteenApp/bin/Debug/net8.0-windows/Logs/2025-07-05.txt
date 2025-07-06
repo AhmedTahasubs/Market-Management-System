@@ -1,0 +1,90 @@
+--------------------------------------------------
+Order Time: 2025-07-05 16:55:19
+Customer Name: taha
+Order Details:
+- sprit x4 @ 12.00 EGP = 48.00 EGP
+Total Amount: 48.00 EGP
+--------------------------------------------------
+2025-07-05 17:13:00 - Username: Hammad, Role: admin logged in.
+--------------------------------------------------
+Order ID: 2
+Order Time: 2025-07-05 17:13:33
+Customer Name: hassan
+Order Details:
+- sprit x2 @ 12.00 EGP = 24.00 EGP
+Total Amount: 24.00 EGP
+Placed by: Ahmed Hammad
+--------------------------------------------------
+--------------------------------------------------
+[UPDATED ORDER]
+Order ID: 1
+Update Time: 2025-07-05 17:14:08
+Customer Name: taha
+Updated Order Details:
+- sprit x2 @ 0.00 EGP = 0.00 EGP
+Total Amount: 0.00 EGP
+Updated by: Ahmed Hammad
+--------------------------------------------------
+2025-07-05 17:21:05 - Username: Hammad, Role: admin logged in.
+--------------------------------------------------
+[UPDATED ORDER]
+Order ID: 2
+Update Time: 2025-07-05 17:21:28
+Customer Name: hassan
+Updated Order Details:
+- sprit x2 @ 0.00 EGP = 0.00 EGP
+Total Amount: 0.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+[UPDATED ORDER]
+Order ID: 2
+Update Time: 2025-07-05 17:21:44
+Customer Name: hassan
+Updated Order Details:
+- sprit x4 @ 0.00 EGP = 0.00 EGP
+Total Amount: 0.00 EGP
+--------------------------------------------------
+2025-07-05 17:34:02 - Username: Hammad, Role: admin logged in.
+--------------------------------------------------
+[UPDATED ORDER]
+Order ID: 2
+Update Time: 2025-07-05 17:34:46
+Customer Name: hassan
+Updated Order Details:
+Total Amount: 0.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+Order ID: 3
+Order Time: 2025-07-05 17:35:06
+Customer Name: alaa
+Order Details:
+- sprit x2 @ 12.00 EGP = 24.00 EGP
+Total Amount: 24.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+[UPDATED ORDER]
+Order ID: 3
+Update Time: 2025-07-05 17:35:26
+Customer Name: alaa
+Updated Order Details:
+- sprit x1 @ 12.00 EGP = 12.00 EGP
+Total Amount: 12.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+[UPDATED ORDER]
+Order ID: 1
+Update Time: 2025-07-05 17:37:48
+Customer Name: taha
+Updated Order Details:
+- sprit x1 @ 0.00 EGP = 0.00 EGP
+Total Amount: 0.00 EGP
+--------------------------------------------------
+2025-07-05 17:43:32 - Username: Hammad, Role: admin logged in.
+--------------------------------------------------
+Order ID: 4
+Order Time: 2025-07-05 17:46:25
+Customer Name: hamada
+Order Details:
+- ورنيش_اسود x2 @ 20.00 EGP = 40.00 EGP
+Total Amount: 40.00 EGP
+--------------------------------------------------

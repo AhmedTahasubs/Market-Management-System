@@ -27,7 +27,8 @@ namespace CanteenApp
                 OrderId = i.OrderId,
                 ProductId = i.ProductId,
                 Product = i.Product,
-                Quantity = i.Quantity
+                Quantity = i.Quantity,
+                UnitPrice = i.UnitPrice
             }).ToList();
 
             txtCustomerName.Text = order.CustomerName;
@@ -127,6 +128,40 @@ namespace CanteenApp
                 item.OrderId = currentOrder.Id;
                 OrderItemsManager.AddOrderItem(item);
             }
+
+            // تحديد مسار الملف حسب تاريخ اليوم
+            string logDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Logs");
+            Directory.CreateDirectory(logDir);
+            string fileName = DateTime.Now.ToString("yyyy-MM-dd") + ".txt";
+            string filePath = Path.Combine(logDir, fileName);
+
+            // بناء محتوى اللوج لتعديل أوردر
+            List<string> logLines = new List<string>();
+            logLines.Add("--------------------------------------------------");
+            logLines.Add("[UPDATED ORDER]");
+            logLines.Add($"Order ID: {currentOrder.Id}");
+            logLines.Add($"Update Time: {DateTime.Now:yyyy-MM-dd HH:mm:ss}");
+            logLines.Add($"Customer Name: {currentOrder.CustomerName}");
+            logLines.Add("Updated Order Details:");
+
+            decimal totalAmount = 0;
+            foreach (var item in updatedItems)
+            {
+                string productName = item.Product.Title;
+                int quantity = item.Quantity;
+                decimal price = item.UnitPrice;
+                decimal subtotal = quantity * price;
+                totalAmount += subtotal;
+
+                logLines.Add($"- {productName} x{quantity} @ {price:0.00} EGP = {subtotal:0.00} EGP");
+            }
+
+            logLines.Add($"Total Amount: {totalAmount:0.00} EGP");
+            logLines.Add("--------------------------------------------------");
+
+            // الكتابة في الملف
+            File.AppendAllLines(filePath, logLines);
+
 
             DialogResult = DialogResult.OK;
             Close();

@@ -398,3 +398,4 @@ C:\Users\muham\OneDrive\Desktop\Canteen\Market-System-Managment\CanteenApp\obj\D
 C:\Users\muham\OneDrive\Desktop\Canteen\Market-System-Managment\CanteenApp\obj\Debug\net8.0-windows\CanteenApp.pdb
 C:\Users\muham\OneDrive\Desktop\Canteen\Market-System-Managment\CanteenApp\obj\Debug\net8.0-windows\CanteenApp.genruntimeconfig.cache
 C:\Users\muham\OneDrive\Desktop\Canteen\Market-System-Managment\CanteenApp\obj\Debug\net8.0-windows\ref\CanteenApp.dll
+D:\Hammad\App_VS\Canteen\Market-System-Managment\CanteenApp\obj\Debug\net8.0-windows\CanteenApp.FormEditOrder.resources

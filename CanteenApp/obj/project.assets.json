@@ -1702,23 +1702,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Taha\\.nuget\\packages\\": {},
+    "C:\\Users\\lap shop\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenApp\\CanteenApp.csproj",
+      "projectUniqueName": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\CanteenApp.csproj",
       "projectName": "CanteenApp",
-      "projectPath": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenApp\\CanteenApp.csproj",
-      "packagesPath": "C:\\Users\\Taha\\.nuget\\packages\\",
-      "outputPath": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenApp\\obj\\",
+      "projectPath": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\CanteenApp.csproj",
+      "packagesPath": "C:\\Users\\lap shop\\.nuget\\packages\\",
+      "outputPath": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Taha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lap shop\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1733,8 +1733,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenLogic\\CanteenLogic.csproj": {
-              "projectPath": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Canteen\\CanteenLogic\\CanteenLogic.csproj"
+            "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenLogic\\CanteenLogic.csproj": {
+              "projectPath": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenLogic\\CanteenLogic.csproj"
             }
           }
         }
