@@ -1684,23 +1684,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lap shop\\.nuget\\packages\\": {},
+    "C:\\Users\\Taha\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenLogic\\CanteenLogic.csproj",
+      "projectUniqueName": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Market-System-Managment\\CanteenLogic\\CanteenLogic.csproj",
       "projectName": "CanteenLogic",
-      "projectPath": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenLogic\\CanteenLogic.csproj",
-      "packagesPath": "C:\\Users\\lap shop\\.nuget\\packages\\",
-      "outputPath": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenLogic\\obj\\",
+      "projectPath": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Market-System-Managment\\CanteenLogic\\CanteenLogic.csproj",
+      "packagesPath": "C:\\Users\\Taha\\.nuget\\packages\\",
+      "outputPath": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Market-System-Managment\\CanteenLogic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lap shop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Taha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1715,8 +1715,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\Canteen\\CanteenDataBase.csproj": {
-              "projectPath": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\Canteen\\CanteenDataBase.csproj"
+            "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Market-System-Managment\\Canteen\\CanteenDataBase.csproj": {
+              "projectPath": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Market-System-Managment\\Canteen\\CanteenDataBase.csproj"
             }
           }
         }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\Canteen\\CanteenDataBase.csproj": {}
+    "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Market-System-Managment\\Canteen\\CanteenDataBase.csproj": {}
   },
   "projects": {
-    "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\Canteen\\CanteenDataBase.csproj": {
+    "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Market-System-Managment\\Canteen\\CanteenDataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\Canteen\\CanteenDataBase.csproj",
+        "projectUniqueName": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Market-System-Managment\\Canteen\\CanteenDataBase.csproj",
         "projectName": "CanteenDataBase",
-        "projectPath": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\Canteen\\CanteenDataBase.csproj",
-        "packagesPath": "C:\\Users\\lap shop\\.nuget\\packages\\",
-        "outputPath": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\Canteen\\obj\\",
+        "projectPath": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Market-System-Managment\\Canteen\\CanteenDataBase.csproj",
+        "packagesPath": "C:\\Users\\Taha\\.nuget\\packages\\",
+        "outputPath": "H:\\Subs\\1-Work\\ITI Projects\\ADO\\Market-System-Managment\\Canteen\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lap shop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Taha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
