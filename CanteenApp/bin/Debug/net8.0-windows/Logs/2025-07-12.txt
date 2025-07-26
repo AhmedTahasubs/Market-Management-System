@@ -1,0 +1,18 @@
+--------------------------------------------------
+Order ID: 1002
+Order Time: 2025-07-12 16:09:19
+Customer Name: samh
+Order Details:
+- ورنيش كريم Show x2 @ 30.00 EGP = 60.00 EGP
+Total Amount: 60.00 EGP
+--------------------------------------------------
+2025-07-12 16:12:57 - Username: diaa, Role: user logged in.
+2025-07-12 16:20:51 - Username: diaa, Role: user logged in.
+--------------------------------------------------
+Order ID: 2002
+Order Time: 2025-07-12 16:21:11
+Customer Name: hammad
+Order Details:
+- ورنيش كريم Show x2 @ 30.00 EGP = 60.00 EGP
+Total Amount: 60.00 EGP
+--------------------------------------------------

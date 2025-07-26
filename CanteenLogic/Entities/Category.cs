@@ -14,5 +14,6 @@ namespace CanteenLogic
         {
             return $"{Name} (ID: {Id})";
         }
+
     }
 }

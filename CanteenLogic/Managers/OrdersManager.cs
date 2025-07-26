@@ -79,11 +79,11 @@ namespace CanteenLogic
         }
         public static int CreateOrderWithItems(Order order)
         {
-            int orderId = AddOrder(order); // Save order
+            int orderId = AddOrder(order); 
             foreach (var item in order.Items)
             {
-                item.OrderId = orderId; // Link item to the new order
-                OrderItemsManager.AddOrderItem(item); // Save item
+                item.OrderId = orderId; 
+                OrderItemsManager.AddOrderItem(item); 
             }
             return orderId;
         }
@@ -133,7 +133,7 @@ namespace CanteenLogic
                     OrderDate = Convert.ToDateTime(row["OrderDate"]),
                 };
 
-                // Load items if needed
+                
                 order.Items = OrderItemsManager.GetOrderItems(order.Id);
                 foreach (var item in order.Items)
                 {

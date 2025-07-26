@@ -21,7 +21,7 @@ namespace CanteenLogic
                 { "@OrderId", item.OrderId },
                 { "@ProductId", item.ProductId },
                 { "@Quantity", item.Quantity },
-                { "@UnitPrice", item.UnitPrice } // save current product price
+                { "@UnitPrice", item.UnitPrice } 
             };
             return dbManager.ExecuteNonQuery(sql, parameters);
         }

@@ -10,10 +10,10 @@ namespace CanteenLogic
     {
         public int Id { get; set; }
         public string? Title { get; set; }
-        public int OriginalPrice { get; set; } // New
-        public int ForSellPrice { get; set; }  // New
-        public int Price => ForSellPrice;      // Keep Price for backward compatibility
-        public int Profit => ForSellPrice - OriginalPrice; // New
+        public int OriginalPrice { get; set; } 
+        public int ForSellPrice { get; set; }  
+        public int Price => ForSellPrice;      
+        public int Profit => ForSellPrice - OriginalPrice; 
         public int UnitsInStock { get; set; }
         public int CategoryId { get; set; }
         public bool IsEmpty => UnitsInStock <= 0;

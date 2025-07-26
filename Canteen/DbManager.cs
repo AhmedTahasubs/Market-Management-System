@@ -16,11 +16,12 @@ namespace CanteenDataBase
         DataTable dt;
         SqlDataAdapter adapter;
         public DbManager()
+
         {
             conn = new SqlConnection("Data Source=.;Initial Catalog=Canteen;Integrated Security=True;Trust Server Certificate=True");
             cmd = new SqlCommand("", conn);
         }
-        // Data Table
+       
         public DataTable GetDataTable(string query)
         {
             cmd.CommandType = CommandType.Text;
@@ -48,7 +49,7 @@ namespace CanteenDataBase
             adapter.Fill(dt);
             return dt;
         }
-        // Execute Non Query
+        
         public int ExecuteNonQuery(string query)
         {
             cmd.Parameters.Clear();
@@ -76,7 +77,7 @@ namespace CanteenDataBase
             conn?.Close();
             return result;
         }
-        // Execute Scalar
+       
         public object ExecuteScalar(string query)
         {
             cmd.Parameters.Clear();

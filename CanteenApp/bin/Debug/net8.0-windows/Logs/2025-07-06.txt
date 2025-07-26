@@ -1,0 +1,26 @@
+--------------------------------------------------
+Order ID: 5
+Order Time: 2025-07-06 17:10:00
+Customer Name: tahga
+Order Details:
+- sprit x8 @ 12.00 EGP = 96.00 EGP
+Total Amount: 96.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+[UPDATED ORDER]
+Order ID: 5
+Update Time: 2025-07-06 17:10:25
+Customer Name: tahga
+Updated Order Details:
+- sprit x10 @ 12.00 EGP = 120.00 EGP
+Total Amount: 120.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+[UPDATED ORDER]
+Order ID: 5
+Update Time: 2025-07-06 17:10:43
+Customer Name: tahga
+Updated Order Details:
+- sprit x5 @ 12.00 EGP = 60.00 EGP
+Total Amount: 60.00 EGP
+--------------------------------------------------
