@@ -74,3 +74,16 @@ H:\Subs\1-Work\ITI Projects\ADO\Market-System-Managment\Canteen\obj\Debug\net8.0
 H:\Subs\1-Work\ITI Projects\ADO\Market-System-Managment\Canteen\obj\Debug\net8.0\refint\CanteenDataBase.dll
 H:\Subs\1-Work\ITI Projects\ADO\Market-System-Managment\Canteen\obj\Debug\net8.0\CanteenDataBase.pdb
 H:\Subs\1-Work\ITI Projects\ADO\Market-System-Managment\Canteen\obj\Debug\net8.0\ref\CanteenDataBase.dll
+H:\Subs\1-Work\ITI Projects\ADO\Market-System-Managment\Market-Management-System\Canteen\bin\Debug\net8.0\CanteenDataBase.deps.json
+H:\Subs\1-Work\ITI Projects\ADO\Market-System-Managment\Market-Management-System\Canteen\bin\Debug\net8.0\CanteenDataBase.dll
+H:\Subs\1-Work\ITI Projects\ADO\Market-System-Managment\Market-Management-System\Canteen\bin\Debug\net8.0\CanteenDataBase.pdb
+H:\Subs\1-Work\ITI Projects\ADO\Market-System-Managment\Market-Management-System\Canteen\obj\Debug\net8.0\CanteenDataBase.csproj.AssemblyReference.cache
+H:\Subs\1-Work\ITI Projects\ADO\Market-System-Managment\Market-Management-System\Canteen\obj\Debug\net8.0\CanteenDataBase.GeneratedMSBuildEditorConfig.editorconfig
+H:\Subs\1-Work\ITI Projects\ADO\Market-System-Managment\Market-Management-System\Canteen\obj\Debug\net8.0\CanteenDataBase.AssemblyInfoInputs.cache
+H:\Subs\1-Work\ITI Projects\ADO\Market-System-Managment\Market-Management-System\Canteen\obj\Debug\net8.0\CanteenDataBase.AssemblyInfo.cs
+H:\Subs\1-Work\ITI Projects\ADO\Market-System-Managment\Market-Management-System\Canteen\obj\Debug\net8.0\CanteenDataBase.csproj.CoreCompileInputs.cache
+H:\Subs\1-Work\ITI Projects\ADO\Market-System-Managment\Market-Management-System\Canteen\obj\Debug\net8.0\CanteenDataBase.sourcelink.json
+H:\Subs\1-Work\ITI Projects\ADO\Market-System-Managment\Market-Management-System\Canteen\obj\Debug\net8.0\CanteenDataBase.dll
+H:\Subs\1-Work\ITI Projects\ADO\Market-System-Managment\Market-Management-System\Canteen\obj\Debug\net8.0\refint\CanteenDataBase.dll
+H:\Subs\1-Work\ITI Projects\ADO\Market-System-Managment\Market-Management-System\Canteen\obj\Debug\net8.0\CanteenDataBase.pdb
+H:\Subs\1-Work\ITI Projects\ADO\Market-System-Managment\Market-Management-System\Canteen\obj\Debug\net8.0\ref\CanteenDataBase.dll

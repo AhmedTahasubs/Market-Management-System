@@ -1,0 +1,17 @@
+--------------------------------------------------
+Order ID: 1030
+Order Time: 2025-07-27 01:40:40
+Customer Name: taha
+Order Details:
+- Pepsi x7 @ 60.00 EGP = 420.00 EGP
+Total Amount: 420.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+[UPDATED ORDER]
+Order ID: 1030
+Update Time: 2025-07-27 01:41:50
+Customer Name: taha
+Updated Order Details:
+- Pepsi x5 @ 60.00 EGP = 300.00 EGP
+Total Amount: 300.00 EGP
+--------------------------------------------------
