@@ -15,7 +15,7 @@ namespace CanteenLogic
         public int Price => ForSellPrice;      
         public int Profit => ForSellPrice - OriginalPrice; 
         public int UnitsInStock { get; set; }
-        public int CategoryId { get; set; }
+        public int? CategoryId { get; set; }
         public bool IsEmpty => UnitsInStock <= 0;
 
         public override string ToString()

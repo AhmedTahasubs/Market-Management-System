@@ -25,7 +25,7 @@ namespace CanteenLogic
                     OriginalPrice = Convert.ToInt32(row["OriginalPrice"]),
                     ForSellPrice = Convert.ToInt32(row["ForSellPrice"]),
                     UnitsInStock = Convert.ToInt32(row["UnitsInStock"]),
-                    CategoryId = Convert.ToInt32(row["CategoryId"])
+                    CategoryId = row["CategoryId"] == DBNull.Value ? null : (int?)Convert.ToInt32(row["CategoryId"])
                 };
                 products.Add(product);
             }

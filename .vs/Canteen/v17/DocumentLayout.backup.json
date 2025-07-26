@@ -3,6 +3,58 @@
   "WorkspaceRootPath": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|d:\\hammad\\app_vs\\canteen\\market-system-managment\\canteenapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|d:\\hammad\\app_vs\\canteen\\market-system-managment\\canteenapp\\updatecategoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\updatecategoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\canteenapp\\updatecategoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\updatecategoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|d:\\hammad\\app_vs\\canteen\\market-system-managment\\canteenapp\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\canteenapp\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|d:\\hammad\\app_vs\\canteen\\market-system-managment\\canteenapp\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\canteenapp\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|d:\\hammad\\app_vs\\canteen\\market-system-managment\\canteenapp\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\canteenapp\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5434EA57-6B95-4342-B828-5C3FE34DA3EF}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48376B7-02F7-4388-8F93-182BC818BC7F}|Canteen\\CanteenDataBase.csproj|d:\\hammad\\app_vs\\canteen\\market-system-managment\\canteen\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48376B7-02F7-4388-8F93-182BC818BC7F}|Canteen\\CanteenDataBase.csproj|solutionrelative:canteen\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFE7F24-6080-4E91-8E74-DB1FB714CCE0}|CanteenLogic\\CanteenLogic.csproj|d:\\hammad\\app_vs\\canteen\\market-system-managment\\canteenlogic\\managers\\ordersmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEFE7F24-6080-4E91-8E74-DB1FB714CCE0}|CanteenLogic\\CanteenLogic.csproj|solutionrelative:canteenlogic\\managers\\ordersmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFE7F24-6080-4E91-8E74-DB1FB714CCE0}|CanteenLogic\\CanteenLogic.csproj|d:\\hammad\\app_vs\\canteen\\market-system-managment\\canteenlogic\\managers\\orderitemsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEFE7F24-6080-4E91-8E74-DB1FB714CCE0}|CanteenLogic\\CanteenLogic.csproj|solutionrelative:canteenlogic\\managers\\orderitemsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFE7F24-6080-4E91-8E74-DB1FB714CCE0}|CanteenLogic\\CanteenLogic.csproj|d:\\hammad\\app_vs\\canteen\\market-system-managment\\canteenlogic\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEFE7F24-6080-4E91-8E74-DB1FB714CCE0}|CanteenLogic\\CanteenLogic.csproj|solutionrelative:canteenlogic\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BEFE7F24-6080-4E91-8E74-DB1FB714CCE0}|CanteenLogic\\CanteenLogic.csproj|d:\\hammad\\app_vs\\canteen\\market-system-managment\\canteenlogic\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEFE7F24-6080-4E91-8E74-DB1FB714CCE0}|CanteenLogic\\CanteenLogic.csproj|solutionrelative:canteenlogic\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,24 +66,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\Program.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Program.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\Program.cs*",
+              "RelativeToolTip": "CanteenApp\\Program.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA/wA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T22:19:28.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateCategoy.cs",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\UpdateCategoy.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\UpdateCategoy.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\UpdateCategoy.cs",
+              "RelativeToolTip": "CanteenApp\\UpdateCategoy.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T22:03:12.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateCategoy.cs [Design]",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\UpdateCategoy.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\UpdateCategoy.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\UpdateCategoy.cs [Design]",
+              "RelativeToolTip": "CanteenApp\\UpdateCategoy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-07-26T22:03:10.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddCategory.cs",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\AddCategory.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\AddCategory.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\AddCategory.cs",
+              "RelativeToolTip": "CanteenApp\\AddCategory.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T22:03:02.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddCategory.cs [Design]",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\AddCategory.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\AddCategory.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\AddCategory.cs [Design]",
+              "RelativeToolTip": "CanteenApp\\AddCategory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-07-26T22:02:59.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddProduct.cs",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\AddProduct.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\AddProduct.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\AddProduct.cs",
+              "RelativeToolTip": "CanteenApp\\AddProduct.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T22:02:52.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddProduct.cs [Design]",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\AddProduct.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\AddProduct.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\AddProduct.cs [Design]",
+              "RelativeToolTip": "CanteenApp\\AddProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-07-26T22:02:49.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddUser.cs",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\AddUser.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\AddUser.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\AddUser.cs",
+              "RelativeToolTip": "CanteenApp\\AddUser.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T22:02:38.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddUser.cs [Design]",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\AddUser.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\AddUser.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenApp\\AddUser.cs [Design]",
+              "RelativeToolTip": "CanteenApp\\AddUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-07-26T22:02:30.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DbManager.cs",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\Canteen\\DbManager.cs",
+              "RelativeDocumentMoniker": "Canteen\\DbManager.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\Canteen\\DbManager.cs",
+              "RelativeToolTip": "Canteen\\DbManager.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAwwE8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T22:01:45.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrdersManager.cs",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenLogic\\Managers\\OrdersManager.cs",
+              "RelativeDocumentMoniker": "CanteenLogic\\Managers\\OrdersManager.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenLogic\\Managers\\OrdersManager.cs",
+              "RelativeToolTip": "CanteenLogic\\Managers\\OrdersManager.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAIwIcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T22:00:49.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderItemsManager.cs",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenLogic\\Managers\\OrderItemsManager.cs",
+              "RelativeDocumentMoniker": "CanteenLogic\\Managers\\OrderItemsManager.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenLogic\\Managers\\OrderItemsManager.cs",
+              "RelativeToolTip": "CanteenLogic\\Managers\\OrderItemsManager.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T22:00:35.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenLogic\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "CanteenLogic\\Entities\\Product.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenLogic\\Entities\\Product.cs",
+              "RelativeToolTip": "CanteenLogic\\Entities\\Product.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA0wA8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T22:00:07.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenLogic\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "CanteenLogic\\Entities\\Category.cs",
               "ToolTip": "D:\\Hammad\\App_VS\\Canteen\\Market-System-Managment\\CanteenLogic\\Entities\\Category.cs",
               "RelativeToolTip": "CanteenLogic\\Entities\\Category.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T21:57:15.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "WhenOpened": "2025-07-26T21:57:15.609Z"
             }
           ]
         }

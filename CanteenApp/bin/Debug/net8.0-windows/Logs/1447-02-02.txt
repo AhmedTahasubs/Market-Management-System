@@ -1,0 +1,60 @@
+--------------------------------------------------
+Order ID: 2003
+Order Time: 1447-02-02 01:20:39
+Customer Name: hamada
+Order Details:
+- sprit x2 @ 12.00 EGP = 24.00 EGP
+- ورنيش_اسود x2 @ 20.00 EGP = 40.00 EGP
+- ورنيش كريم Show x3 @ 30.00 EGP = 90.00 EGP
+Total Amount: 154.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+[UPDATED ORDER]
+Order ID: 2003
+Update Time: 1447-02-02 01:21:20
+Customer Name: hamada
+Updated Order Details:
+- sprit x1 @ 12.00 EGP = 12.00 EGP
+- ورنيش_اسود x2 @ 20.00 EGP = 40.00 EGP
+- ورنيش كريم Show x3 @ 30.00 EGP = 90.00 EGP
+Total Amount: 142.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+[UPDATED ORDER]
+Order ID: 2003
+Update Time: 1447-02-02 01:22:14
+Customer Name: hamada
+Updated Order Details:
+- sprit x1 @ 12.00 EGP = 12.00 EGP
+- ورنيش_اسود x2 @ 20.00 EGP = 40.00 EGP
+- ورنيش كريم Show x1 @ 30.00 EGP = 30.00 EGP
+Total Amount: 82.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+Order ID: 2004
+Order Time: 1447-02-02 01:22:51
+Customer Name: Alaa
+Order Details:
+- sprit x1 @ 12.00 EGP = 12.00 EGP
+- ورنيش_اسود x2 @ 20.00 EGP = 40.00 EGP
+Total Amount: 52.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+Order ID: 2005
+Order Time: 1447-02-02 01:23:34
+Customer Name: yaraaaaaaaaaa
+Order Details:
+- sprit x1 @ 12.00 EGP = 12.00 EGP
+- ورنيش كريم Show x5 @ 30.00 EGP = 150.00 EGP
+- ورنيش_اسود x4 @ 20.00 EGP = 80.00 EGP
+Total Amount: 242.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+[UPDATED ORDER]
+Order ID: 2005
+Update Time: 1447-02-02 01:24:20
+Customer Name: yaraaaaaaaaaa
+Updated Order Details:
+- ورنيش كريم Show x3 @ 30.00 EGP = 90.00 EGP
+Total Amount: 90.00 EGP
+--------------------------------------------------

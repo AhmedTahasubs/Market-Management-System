@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 --------------------------------------------------
 Order ID: 5
 Order Time: 2025-07-06 17:10:00
@@ -24,3 +25,39 @@ Updated Order Details:
 - sprit x5 @ 12.00 EGP = 60.00 EGP
 Total Amount: 60.00 EGP
 --------------------------------------------------
+=======
+--------------------------------------------------
+Order ID: 1028
+Order Time: 2025-07-06 17:16:31
+Customer Name: ahmed
+Order Details:
+- Pepsi x7 @ 60.00 EGP = 420.00 EGP
+Total Amount: 420.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+[UPDATED ORDER]
+Order ID: 1028
+Update Time: 2025-07-06 17:16:43
+Customer Name: ahmed
+Updated Order Details:
+- Pepsi x5 @ 60.00 EGP = 300.00 EGP
+Total Amount: 300.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+[UPDATED ORDER]
+Order ID: 1028
+Update Time: 2025-07-06 17:16:57
+Customer Name: ahmed
+Updated Order Details:
+- Pepsi x10 @ 60.00 EGP = 600.00 EGP
+Total Amount: 600.00 EGP
+--------------------------------------------------
+--------------------------------------------------
+[UPDATED ORDER]
+Order ID: 1028
+Update Time: 2025-07-06 17:17:28
+Customer Name: ahmed
+Updated Order Details:
+Total Amount: 0.00 EGP
+--------------------------------------------------
+>>>>>>> 0ee5d012874adf328eaca78d82d9e38392c6df1c
